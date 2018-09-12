@@ -5,10 +5,10 @@
     versionCode = "10"
     version     = "1.0.0" >
   <!-- nome della app -->
-  <name>Calendrier Canossian</name>
+  <name>Calendário Canossiano</name>
   <!-- descrizione -->
   <description>
-      Calendrier Canossian
+      Calendário Canossiano
   </description>
   <!-- autore -->
   <author href="https://build.phonegap.com">
@@ -16,9 +16,9 @@
   </author>
   <!-- piattaforma di riferimento ed icona della app -->
     <platform name="android">
-              <icon src="img/iconfr.png" density="ldpi" />
-              <icon src="img/iconfr.png" density="mdpi" />
-              <icon src="img/iconfr.png" density="hdpi" />
-              <icon src="img/iconfr.png" density="xhdpi" />
+              <icon src="img/iconpt.png" density="ldpi" />
+              <icon src="img/iconpt.png" density="mdpi" />
+              <icon src="img/iconpt.png" density="hdpi" />
+              <icon src="img/iconpt.png" density="xhdpi" />
      </platform>
 </widget>
