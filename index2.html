@@ -1,0 +1,3168 @@
+  <!doctype html> 
+  <html lang = en> 
+  <head> 
+  <title> Canossian Calendar </title> 
+  <meta charset = utf-8> 
+  
+  <link rel=stylesheet href=css/onsenui.css> 
+  <link rel=stylesheet href=css/onsenui-core.css> 
+  <link rel=stylesheet href=css/onsenui-fonts.css> 
+  <link rel=stylesheet href=css/onsen-css-components.css> 
+  <link rel=stylesheet href=css/ionicons.min.css> 
+  <link rel=stylesheet href=css/custom.css> 
+  </head> 
+  <body> 
+  <ons-page> 
+  <ons-tabbar id=tabbar> 
+  <ons-tab page=home.html active> <img src=img/home.png> 
+  </ons-tab> 
+  <ons-tab page=pt.html> <img src=img/pt.png> 
+  </ons-tab> 
+  <ons-tab page=music.html> <img src=img/musica.png> 
+  </ons-tab> 
+  <ons-tab page=storia.html> <img src=img/info.png> 
+  </ons-tab> 
+  </ons-tabbar> 
+  
+  <template id=home.html> 
+  <ons-page class=main_pages id=home-page> 
+  <ons-toolbar> 
+  <div class=center> Home </div> 
+  </ons-toolbar> 
+  <div> 
+   
+ <ons-carousel class="stories-tab" id="stories" auto-refresh swipeable overscrollable item-width="70px"></ons-carousel>
+
+  <ons-card class=post> 
+  <ons-list-item class=post_title> 
+  <div class=center> 
+  <div class=list-item__title style="text-align:center"> <b> Calendário </b> </div> 
+  <div class="list-item__subtitle" style="text-align:center;font-size: 12px">Santa Madalena de Canossa </div> 
+  </div> 
+  </ons-list-item> 
+      
+   <div style="text-align: center; position: relative;">
+          <img src=img/cover.jpg style="width:100%">
+          &nbsp;
+        </div>
+
+        <ons-list-item class="post-button-bar" modifier="nodivider">
+          <div class="center" style="padding-top: 0px">
+  <p> Pensamentos de Santa Madalena de Canossa no seu smartphone </p> 
+  <p> Nossa história </p> 
+  <p> <b> Madalena </b> nasceu da família Marquis Canossa em Verona em 1 de março de 1774. <br> 
+  Ela vive como protagonista em uma época de mudanças culturais profundas e radicais, bem como políticas e sociais.  <br> 
+  Sensível às necessidades das pessoas pobres da cidade e guiado por uma profunda busca religiosa, encontra com dificuldade, através de muitas experiências e tentativas, seu carisma na Igreja: ela escolherá viver para Deus somente não seguindo a forma monástica, mas na dedicação e serviço dos pobres, proporcionando educação para promover sua autonomia, contribuindo para o trabalho de evangelização da Igreja e atendendo a situações de fragilidade e abandono.  <br> 
+  Ela deixou definitivamente o Palazzo Canossa e começou seu trabalho com alguns companheiros, coletando e educando crianças no degradado distrito de S. Zeno, em 8 de maio de 1808. <br> 
+  Posteriormente, o Instituto das Filhas da Caridade se estende a Veneza, Milão, Bérgamo, Trento, enquanto Madalena multiplica contatos com autoridades religiosas e civis para apoiar suas próprias iniciativas de caridade. 
+  Em 23 de maio de 1831, com a ajuda de um sacerdote veneziano e dois leigos de Bergamo, ela fundou a congregação dos Filhos da Caridade.  <br> 
+  Envolve inúmeros leigos em seu amplo plano apostólico, tornando-os co-responsáveis na promoção da caridade. 
+  Ela morreu em Verona em 10 de abril de 1835. <br> 
+  Ela foi beatificada por Pio XI em 8 de dezembro de 1941 e canonizada por João Paulo II em 2 de outubro de 1988. </p> 
+  </div> 
+  </ons-list-item> 
+  </ons-card> 
+  </div> 
+  </ons-page> 
+  </template> 
+      
+  
+  <template id=pt.html> 
+  <ons-page class=main_pages id=portoghese> 
+  <ons-toolbar> 
+  <div class=center> Português </div> 
+  </ons-toolbar> 
+  <div> 
+  <ons-carousel class="stories-tab" id="stories" auto-refresh swipeable overscrollable item-width="70px"></ons-carousel>
+      
+  <ons-card class=post> 
+  <ons-list-item class=post_title> 
+  <div class=center> 
+  <div class=list-item__title style = text-align: center> <b> Calendário </b> </div> 
+  <div class=list-item__subtitle estilo = texto-alinhamento: centro; tamanho da fonte: 12px> Versão em Português </div> 
+  </div> 
+  </ons-list-item> 
+  <div class=container> 
+  <div class=item> 
+  <br> 
+  <a href=# onclick="showModal('janeiro');"> 
+  <ons-icon icon="calendar"></ons-icon><br> 
+  Janeiro 
+  </a> 
+ 
+  <ons-modal id=janeiro> 
+  <p align = center> <a href=# onclick="closeModal('janeiro')"> <b> Janeiro </b> 
+  <img src=img/close.png> 
+  </a> 
+  </p> 
+  <hr> 
+  <p> UM CALENDÁRIO marca o TEMPO: <br> 
+  <b> CHRONOS </b> é um tempo lógico e sequencial; <br> 
+  <b> KAIROS </b> é o momento certo e favorável, é o tempo de Deus; <br> 
+  um período de tempo indefinido em que "algo" especial acontece. </p> 
+  <p> Enquanto o Chronos é quantitativo, o Kairos é de natureza qualitativa. <br> 
+  Na história da salvação, Deus pensa livremente em uma série de intervenções que se desdobram em momentos particulares e essas intervenções estão relacionadas umas com as outras para a realização de um projeto. <Br> 
+  <b> JESUS CRISTO </b>, a plenitude do tempo, dá pleno significado à dimensão temporal, espacial e de criação. <br> 
+  A revelação se apresenta, assim, como a história da contínua irrupção de um concreto 
+  presença, <b> Deus </b>, no espaço e no tempo, de modo a encontrar pessoas reais de quem Ele deseja uma decisão livre de amor, a fim de realizar o seu desígnio de amor. </p> 
+  <p> O tempo bíblico é medido pela <b> Palavra de Deus </b> e pela obediência de Seu povo, onde o 
+  criatura humana expressa, em plenitude, a faculdade de um ser humano que decide. <br> 
+  Toda a Revelação repousa na história, na história em contínuo desdobramento, mas que tem um longo passado e 
+  será cumprida no futuro, a história das intervenções livres e misericordiosas de Deus no mundo 
+  e a resposta livre dos seres humanos. </p> 
+  <p> Uma pergunta: Como Jesus viveu o tempo? <br> 
+  <b> Jesus </b> dedicou seu tempo à oração. 
+  <b> Jesus </b> deu o seu tempo aos pobres, doentes e sofredores. 
+  <b> Jesus </b> deu tempo para a Palavra, para o ministério da Palavra. 
+  <b> Jesus </b> deu muito tempo para a formação dos apóstolos. 
+  <b> Jesus </b> deu muito tempo para encontros pessoais de diferentes tipos. 
+  <b> Jesus </b> deu prioridade ao uso do tempo. 
+  <b> Jesus </b> teve uma visão clara de sua missão. 
+  <b> Jesus </b> tinha um conhecimento preciso do uso do tempo. 
+  <b> Jesus </b> se afastou de Suas ocupações para orar e estar com Seus apóstolos. </p> 
+  <p> <b> Madalena de Canossa </b>: 
+  "Esta situação está nas mãos de Deus; devemos aguardar o momento oportuno da Divina Providência". <Br> 
+  "Agora é a hora de fazer o que se pode, até que Deus remova estas circunstâncias difíceis". 
+  "Coloque-se nas mãos do Senhor, que fará com que tudo saia para o seu bem." 
+  "Abandone-se nas mãos do Senhor, porque no Seu tempo, Ele proverá tudo." <Br> 
+  "Vamos nos colocar em suas mãos, esperando o que Ele planejou para nós." 
+  "O tempo vai resolver tudo." </p> 
+  <p> <b> Don Libera </b>: <br> 
+  "Como você pode duvidar que no momento oportuno Ele revelará Seus desígnios vivos?" 
+  "Queremos esperar que Deus, no momento oportuno, conceda nossos desejos". </p> 
+  <p> Na minha vida, é importante que o Chronos esteja no mesmo comprimento de onda que o Kairos. 
+  em contemplar o momento em que Deus entra no tempo 
+  e permeia a história e minha existência 
+  com o seu mistério da graça e 
+  Salvação.  AMEN! </p> 
+  <hr> 
+  <h3> <a href=# onclick=toggle('m01eng1')> 1º de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng1> 
+  <p> União com Deus durou cerca de uma hora e meia, com 
+  breves intervalos, e fiquei com imensa paz, alegria 
+  e ansiando pelo céu;  mas também com vontade de trabalhar 
+  Difícil. 
+  <b> Memórias III, 45 </b> </p> 
+  <p class=bibbia> Quão bom, quão delicioso é para todos viverem juntos como 
+  irmãos;  o Senhor confere Sua bênção, vida eterna. 
+  <b> Salmo 133: 1,3 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng2')> 2 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng2> 
+  <p> Sentindo-me unido a Deus em oração, e pareceu 
+  me imergir em Deus;  Eu também experimentei uma paz celestial e um desejo tão profundo de estar no Paraíso, que até desejei ser atingido por um raio, a fim de morrer! 
+  <b> Memórias VI, 17 </b> </p> 
+  <p class=bibbia> Gritos de alegria para todos que amam a justiça e dizem: "Grande é 
+  o Senhor que gosta de ver seu servo em paz! 
+  <b> Salmo 35: 27 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng3')> 3 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng3> 
+  <p> Voltei para o meu retiro em Verona e precisava de todo o 
+  força de obediência para me colocar em paz.  Parecia tão 
+  embora eu tivesse negligenciado o bem das almas e tivesse dado 
+  na minha própria inclinação, embora não tivesse feito nada de acordo com a minha vontade. 
+  <b> Memórias II, 36 </b> </p> 
+  <p class=bibbia> O desejo do Espírito traz vida e paz ... Deixe-se guiar pelo Espírito, pois o Espírito de Deus habita em você. 
+  <b> Romanos 8: 6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng4')> 4 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng4> 
+  <p> Senti minha alma atraída para unir-se exteriormente com Deus como 
+  Deus, isso é como Espírito.  Uma grande paz interior varreu 
+  mim.  Depois dessa experiência eu tive tanto desejo de morrer 
+  e o céu. 
+  <b> Memórias VI, 27,29 </b> </p> 
+  <p class=bibbia> Paz eu deixo a você, minha própria paz eu lhe dou, uma paz 
+  o mundo não pode dar.  Este meu presente para você.  Não deixe 
+  seus corações ficarem perturbados ou com medo. 
+  <b> João 14:27 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng5')> 5 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng5> 
+  <p> Se o forte impulso rápido que estava me atraindo para unir 
+  com Deus tinha sido mais poderoso, até o meu corpo 
+  foram levados com minha alma.  Durante esse dia eu 
+  me senti tão alegre em tudo que eu tinha que fazer. 
+  <b> Memórias VI, 27 </b> </p> 
+  <p class=bibbia> Então Jesus disse à mulher: "Seus pecados estão perdoados ... 
+  Sua fé te salvou;  vá em paz." 
+  <b> Lucas 7:50 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng6')> 6 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng6> 
+  <p> Eu dei uma cuidadosa consideração à minha falta de gratidão em responder 
+  Desse caminho para a Divina Misericórdia.  Eu implorei ao Senhor em lágrimas 
+  durante todo o tempo eu fui deixado sozinho e finalmente me recuperei 
+  minha paz. 
+  <b> Memórias XI, 52 </b> </p> 
+  <p class=bibbia> Que o Senhor da paz lhe dê a paz toda a 
+  tempo e todos os sentidos.  Que a graça de nosso Senhor Jesus 
+  Cristo esteja com todos vocês. 
+  <b> 2 Tessalonicenses 3: 16.18 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng7')> 7 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng7> 
+  <p> Uma vez, enquanto orava, senti a presença de Deus.  Como 
+  se eu não visse nada, ainda assim eu poderia perceber Sua essência em 
+  meu eu interior.  Eu senti como se a alma estivesse sendo tran- 
+  ostentava, com muita paz e doçura para unir-se 
+  Com Deus. 
+  <b> Memórias XII, 30 </b> </p> 
+  <p class=bibbia> Que o Deus da paz vos torne perfeitos e santos;  e 
+  Que todos vocês possam ser mantidos seguros e inocentes para a vinda de 
+  Nosso Senhor. 
+  <b> 1 Tessalonicenses 5: 23 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng8')> 8 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng8> 
+  <p> Você não deve julgar os pecados do passado de acordo com o seu presente 
+  conhecimento;  porque diante de Deus há culpa de acordo 
+  para o conhecimento que você tinha naquele tempo ... com esta Confissão você esperava desfrutar da paz e tranquilidade do Paraíso. 
+  <b> Cartas de Direção Espiritual, 3 </b> </p> 
+  <p class=bibbia> Não se abandone à tristeza, não tormento 
+  -se com choco.  Alegria de coração e alegria dá ao homem muitos dias. 
+  <b> Eclesiatico 30: 21-22 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng9')> 9 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng9> 
+  <p> Você fez o melhor que podia, ficou em paz e 
+  abandone-se totalmente à bondade e misericórdia de Deus. 
+  Obedeça e você encontrará tanta paz quanto pode ser apreciado 
+  neste vale de lágrimas. 
+  <b> Cartas de Direção Espiritual, 3 </b> </p> 
+  <p class=bibbia> Eu te disse tudo isso para que você possa encontrar paz em mim. 
+  No mundo você terá problemas, mas seja corajoso: eu conquistei o mundo. 
+  <b> João 16:33 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng10')> 10 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng10> 
+  <p> Não precisamos de entreter nenhum escrúpulo que não tenha 
+  aluguel e fundação substancial.  Que o Senhor te abençoe 
+  e pode Ele te encher com a paz que Ele veio para 
+  trazer à terra para todos aqueles de boa vontade. 
+  <b> Cartas de direção espiritual, 8 </b> </p> 
+  <p class=bibbia> Volte ao seu lugar de descanso, minha alma, o Senhor te tratou gentilmente ... Eu andarei em Sua presença na terra dos vivos. 
+  <b> Salmo 116: 7.9 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng11')> 11 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng11> 
+  <p> É adequado que você se acostume a levar as coisas 
+  com calma e docilidade.  Mas, por enquanto, vamos colocar o 
+  coração em paz e deixe-nos esperar e ver o que acontece e 
+  então, no momento certo, nós agiremos de acordo com a Vontade 
+  de Deus. 
+  <b> Cartas de direção espiritual, 18 </b> </p> 
+  <p class=bibbia> Seja feliz;  tente crescer perfeito;  Ajudar um ao outro.  Seja unido;  viva em paz e o Deus de amor e paz estará com você. 
+  <b> 2 Coríntios 13:11 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng12')> 12 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng12> 
+  <p> Que o Senhor abençoe vocês e os encha com Seus 
+  bênçãos venenas e que a paz que Ele traz para a terra 
+  para dar a todos aqueles de boa vontade;  isso é o que eu realmente desejo 
+  para você neste Natal sagrado. 
+  <b> Cartas de Direção Espiritual, 23 </b> </p> 
+  <p class=bibbia> Que a paz de Cristo reine em seus corações, porque é 
+  por isso que vocês foram chamados juntos.  Seja sempre grato. 
+  <b> Colossenses 3:15 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng13')> 13 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng13> 
+  <p> Acredite, é necessário manter seu intelecto um pouco 
+  menos discorsivo e assim a paz é encontrada na obediência.  Estar 
+  em paz, tudo deve ser feito pelo amor de Deus 
+  e não pense em querer aquilo que Deus não 
+  quero te dar. 
+  <b> Cartas de Direção Espiritual, 32 </b> </p> 
+  <p class=bibbia> Paz universal para aqueles que amam a sua lei, sem tropeços para eles!  Eu observo seus decretos;  estes eu amo totalmente. 
+  <b> Salmo 119: 165 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng14')> 14 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng14> 
+  <p> Tome coragem e generosamente carregue sua cruz.  Sua alma 
+  precisa de uma grande paz para que você esteja sempre tranquilo 
+  no meio de muitos ensaios que ocorrem. 
+  <b> Epistolario III / 3, 2153 </b> </p> 
+  <p class=bibbia> Que o Deus da esperança lhe traga tanta alegria e paz 
+  sua fé que o poder do Espírito Santo removerá todos os limites da esperança. 
+  <b> Romanos 15:13 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng15')> 15 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng15> 
+  <p> Recomendo-lhe paz interior: não é suficiente 
+  você começou, você precisa de perseverança.  Acredite em Deus. 
+  Abandone-se a Ele e tenha certeza de que Ele ajudará 
+  você.  Eu te deixo no mais sagrado coração de nossa mãe. 
+  <b> Epistolario III / 1, 293 </b> </p> 
+  <p class=bibbia> <b> Epistolario III / 1, 293 </b> 
+  Pois eu refleti sobre tudo isso e entendi 
+  que os virtuosos e os sábios, com tudo o que fazem, estão 
+  as mãos de Deus. 
+  <b> Qoèlet 9: 1 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng16')> 16 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng16> 
+  <p> 
+  Lembre-se, acima de tudo, nunca se preocupe com nada, porque quando a paz é perdida, até mesmo as menores coisas parecem 
+  ser montanhas.  Então, esteja em paz e em perfeito abandono, como eu costumo recomendar a você. 
+  <b> Epistolario III / 1, 172 </b> </p> 
+  <p class=bibbia> Não se preocupe com a sua vida ... olhe para os pássaros no 
+  céu ... e pense nas flores que crescem nos campos.  Seu Pai celestial sabe que você precisa deles. 
+  <b> Mateus 6: 25.32 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng17')> 17 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng17> 
+  <p> Coragem, minha querida filha, seja tranquila e confie em 
+  o Senhor que deseja você pode se abandonar a ele; 
+  tente praticar estas virtudes em paz.  Tenha certeza de que eu 
+  Estou sempre pronta para te ajudar quando puder. 
+  <b> Epistolario III / 4, 2858 </b> </p> 
+  <p class=bibbia> Aquele que ouve a palavra encontrará a felicidade;  ele quem 
+  coloca sua confiança em Deus é abençoado ... a sabedoria é uma fonte de vida para os sábios. 
+  Provérbios 16: 20,22 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng18')> 18 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng18> 
+  <p> Em qualquer união, mesmo a mais bela, a mais santa, a 
+  mais perfeitos, sendo feitos de seres humanos, encontramos defeitos, fraquezas;  as pessoas devem executar o comando 
+  de Jesus Cristo, amando um ao outro com todo seu coração. 
+  <b> Regras Completas, 247 </b> </p> 
+  <p class=bibbia> Jesus disse: "Se um reino está dividido contra si mesmo, 
+  O reino não pode durar;  se uma família está dividida contra si mesma, essa família nunca pode ficar de pé. 
+  <b> Marcos 3: 23-25 ​​</b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng19')> 19 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng19> 
+  <p> 
+  Eles devem suportar um com o outro e quando alguém 
+  pede perdão, a outra pessoa sempre responde 
+  gentil e cordialmente, perdoando qualquer ofensa e dor. 
+  <b> Regras Completas, 253 </b> </p> 
+  <p class=bibbia> Perdoa-nos os nossos pecados, pois nós mesmos perdoamos a cada um 
+  quem está em dívida conosco.  E não nos ponha à prova. 
+  <b> Lucas 11: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng20')> 20 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng20> 
+  <p> Tudo isso você deve fazer pela paz e propriedade do 
+  família.  Recomende-se ao Senhor e escreva para 
+  ela quando você acha que é prudente.  Ele, sozinho, é o centro 
+  e fundação do nosso coração e nossa felicidade. 
+  <b> Cartas de direção espiritual, 22 </b> </p> 
+  <p class=bibbia> Qualquer um que não cuide de suas próprias relações, 
+  especialmente se eles estão vivendo com ele, rejeitou o 
+  fé. 
+  <b> 1 Timóteo 5: 8 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng21')> 21 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng21> 
+  <p> Eu te exorto a se esforçar para buscar o bem do seu 
+  Família, de união e paz.  Que o Senhor te conceda 
+  crescer em Sua graça e bênçãos e nunca deixar o seu 
+  coração ... E permita que Ele nos experimente como quiser. 
+  <b> Cartas de direção espiritual, 48 </b> </p> 
+  <p class=bibbia> As mulheres mais velhas devem se comportar como se fossem religiosas e mostrar às mulheres mais jovens como amar seus maridos e filhos. 
+  <b> Tito 2: 3-5 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng22')> 22 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng22> 
+  <p> 
+  Ele me fez levar uma vida muito distante dentro do meu próprio 
+  casa.  Enquanto isso, ele e eu oramos fervorosamente 
+  para conhecer a vontade de Deus e eu continuei a confiar totalmente em sua 
+  orientação. 
+  <b> Memórias, I, 13 </b> </p> 
+  <p class=bibbia> As crianças devem aprender a cumprir seu dever com suas próprias famílias e pagar suas dívidas aos pais porque isso é 
+  o que agrada a Deus. 
+  <b> 1 Timóteo 5: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng23')> 23 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng23> 
+  <p> Eu sabia que Deus queria que eu pertencesse totalmente a Ele 
+  e não se envolver nos eventos da minha família, mesmo 
+  embora eu estivesse pronto para fazer qualquer sacrifício.  O Senhor, 
+  no entanto, fez tudo por conta própria. 
+  <b> Memórias, XIV, 4 </b> </p> 
+  <p class=bibbia> Jesus disse: "Aqui está minha mãe e meus irmãos. Quem faz a vontade do meu Pai Celestial, ele é 
+  meu irmão e irmã e mãe ". 
+  <b> Mateus 12: 48-50 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng24')> 24 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng24> 
+  <p> Eu recomendo meu tio para suas orações.  Ó Deus, se você 
+  só sabia como estou com medo toda vez que penso em um 
+  Com quem meu irmão vai se casar.  Faça-me a caridade de orar sempre por ele para que ele possa encontrar uma boa esposa cristã. 
+  <b> Epistolario I, 179 </b> </p> 
+  <p class=bibbia> Felizes a todos os que temem o Senhor e seguem em Seus 
+  caminho.  Sua esposa: uma videira frutífera dentro de sua casa;  seu 
+  filhos gostam de brotos ao redor de uma oliveira. 
+  <b> Salmo 128: 1-3 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng25')> 25 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng25> 
+  <p> 
+  Agora eu vou te contar o que sua mãe disse quando ela estava 
+  aqui ontem.  Ela está muito bem e pacífica no coração.  Eu 
+  ficou com ela por um longo tempo, a fim de ter certeza que ela 
+  estava realmente calmo.  Reze por ela. 
+  <b> Epistolario III / 1, 660 </b> </p> 
+  <p class=bibbia> Quem quer que respeite seu pai é expiar seus pecados, ele 
+  quem honra sua mãe é como alguém que acumula uma fortuna. 
+  A oração de um pai torna seus filhos fortes. 
+  <b> Ecclesiaticus 3: 4.9 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng26')> 26 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng26> 
+  <p> Estou feliz que Elena esteja melhorando;  se isso agrada ao 
+  Senhor seria um grande consolo para encontrá-la melhor 
+  quando eu venho.  Eu recomendo para você estar em paz.  Confiar em 
+  no Senhor.  Abandone-se nele. 
+  <b> Epistolario III / 1.293 </b> </p> 
+  <p class=bibbia> <b> Epistolario III / 1.293 </b> 
+  Feliz o homem que cuida dos pobres: se houver um desastre, o Senhor será seu conforto em seu leito de doenças; 
+  mais cuidadosamente você faz a cama dele quando ele está doente. 
+  <b> Salmo 41: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng27')> 27 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng27> 
+  Peço-lhe que recomende minha família ao Senhor, porque 
+  Ele pode conceder a força e a aceitação necessárias. 
+  Para o resto, a vontade mais amorosa de Deus seja sempre 
+  feito em tudo. 
+  <b> Epistolario III / 2, 805 </b> </p> 
+  <p class=bibbia> Se ainda estou vivo, mostra-me a bondade do próprio Yahweh;  se eu 
+  morra, nunca com sua própria bondade da minha casa. 
+  <b> 1 Samuel 20: 14-15 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng28')> 28 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng28> 
+  <p> Eu tive o consolo de receber do meu irmão uma descrição 
+  relatório conduzido da morte de minha cunhada.  Depois de receber o sacramento dos doentes, completamente consciente, ela 
+  adormeceu no Senhor. 
+  <b> Epistolario III / 2, 809 </b> </p> 
+  <p class=bibbia> E quanto à ressurreição dos mortos, está escrito: "Eu sou 
+  o Deus de Abraão, o Deus de Isaque e o Deus de Jacó! "Deus é o Deus dos vivos, não dos mortos. 
+  <b> Mateus 22: 31-32 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng29')> 29 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng29> 
+  <p> Vamos trabalhar para a glória do Senhor e para o bem de todos. 
+  almas.  Por favor, ore por mim ao Senhor e lembre-se também 
+  minha cunhada e minha família a Deus para que Ele possa 
+  abençoe a todos. 
+  <b> Epistolario III / 2, 815 </b> </p> 
+  <p class=bibbia> Feliz o homem justo que encontra alegria na Palavra do 
+  Senhor, que estuda dia e noite.  Deus protege seus caminhos. 
+  <b> Salmo 1: 1,6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng30')> 30 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng30> 
+  <p> Obrigado pela boa notícia que você me dá sobre 
+  minha família, mas se a criança for chamada para o céu, deixe-a ir.  Eu 
+  inveja seu destino, mas sinto muito pela minha boa cunhada.  Eu 
+  Deixá-los todos no mais sagrado coração de Maria. 
+  <b> Epistolario III / 3, 1919 </b> </p> 
+  <p class=bibbia> Então eu ouvi uma voz do céu: "Anote; feliz 
+  são aqueles que morrem no Senhor ... suas boas obras irão com eles. 
+  <b> Apocalipse 14:13 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m01eng31')> 31 de janeiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m01eng31> 
+  Na noite passada o Senhor chamou meu sobrinho para Si mesmo.  Ele era 
+  apenas vinte.  Eu o recomendo calorosamente para suas orações 
+  e por favor, ore por meu irmão que está tão aflito quanto você 
+  pode imaginar. 
+  <b> Epistolario III / 4, 2735 </b> </p> 
+  <p class=bibbia> Irmãos, por nosso Senhor Jesus Cristo e pelo amor do 
+  Espírito: que o Deus da paz esteja com todos vocês! 
+  <b> Romanos 15: 30.33 </b> </p> 
+  </div> 
+  <! - bem janeiro -> 
+  </ons-modal> 
+  </div> 
+  <div class=item> 
+  <br> 
+  <a href=# onclick="showModal('fevereiro');"> 
+  <ons-icon icon="calendar"></ons-icon><br> 
+  fevereiro 
+  </a> 
+  <ons- id modal = fevereiro> 
+  <p align = center> <a href=# onclick="closeModal('fevereiro')"> <b> Fevereiro </b> 
+  <img src=img/close.png> 
+  </a> 
+  </p> 
+  <p> Pai nosso, seja feita a vossa vontade na terra como no céu! </p> 
+  <hr> 
+  <h3> <a href=# onclick=toggle('m02eng1')> 1 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng1> 
+  <p> Duplique suas orações por mim para que Deus possa esclarecer 
+  eu fazer o que agrada.  Você não poderia me dar um 
+  maior prova de sua amizade do que isso, já que você pode 
+  Veja como esta solução faz bem à minha saúde eterna. 
+  <b> Epistolario I, 242 </b> </p> 
+  <p class=bibbia> Se você me ama, guardará meus mandamentos.  eu devo 
+  pergunte ao Pai, e Ele lhe dará outro Advogado para estar com você para sempre, o Espírito da verdade. 
+  <b> João 14:15 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng2')> 2 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng2> 
+  <p> Eu tenho grande necessidade de oração para que Deus possa abrir caminhos 
+  que estão de acordo com a Sua santa vontade.  Assim eu recomendo 
+  eu mesmo ao seu amor e amizade, para que você possa orar 
+  e faça outros orarem. 
+  <b> Epistolario I, 258 </b> </p> 
+  <p class=bibbia> Jesus disse: "Minha mãe e meus irmãos são aqueles que 
+  ouça a Palavra de Deus e coloque-a em prática. 
+  <b> Lucas 8:21 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng3')> 3 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng3> 
+  <p> Eu coloco o caso nas mãos do Senhor e estou pronto para fazer 
+  o que Ele quer, mas o problema precisa de muita oração e 
+  Eu também orarei;  você também ora e faz os outros orarem. 
+  <b> Epistolario I, 323 </b> </p> 
+  <p class=bibbia> Jesus se ajoelhou e orou: "Pai, se você estiver disposto, 
+  tire este copo de mim!  No entanto, deixe sua vontade 
+  seja feito, não meu ". 
+  <b> Lucas 22:42 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng4')> 4 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng4> 
+  <p> Pai Nosso, que seja feita a tua vontade na terra como no céu! 
+  Iremos continuamente orar ao Senhor para conhecer a Sua 
+  Desejo divino.  Eu tenho sempre o mesmo desejo de ir onde quer que ele esteja.  Mesmo neste caso, vamos ver em breve como as coisas acabam. 
+  <b> Epistolario I, 18 </b> </p> 
+  <p class=bibbia> Ore assim: "Pai nosso que está no céu, seja o teu nome 
+  santificado, venha o teu reino, seja feita a tua vontade, na terra como no céu. 
+  <b> Mateus 6: 9,10 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng5')> 5 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng5> 
+  <p> Ore e faça outros orarem para que o Senhor possa sempre 
+  ilumine-nos e remova as dificuldades presentes para conhecer e seguir a Sua vontade.  Vamos orar em um especial 
+  caminho para nossa senhora abençoada. 
+  <b> Epistolario I, 217 </b> </p> 
+  <p class=bibbia> Jesus disse: "Eu sou o pão da vida, o pão vivo ... eu 
+  vim do céu, não para fazer a minha vontade, mas para fazer a vontade do Pai que me enviou. 
+  <b> João 6:38 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng6')> 6 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng6> 
+  <p> Vamos discernir todas as possibilidades, se você quiser, e se o 
+  Senhor me ajudará a conhecer Sua santa vontade, como eu espero que Ele vá 
+  Eu sou indiferente a qualquer coisa com a ajuda de Deus. 
+  <b> Epistolario I, 228 </b> </p> 
+  <p class=bibbia> Jesus disse aos seus discípulos: "A minha comida é fazer a vontade de 
+  Aquele que me enviou e para completar o seu trabalho ". 
+  <b> João 4:34 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng7')> 7 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng7> 
+  <p> Deus é o Mestre das Almas e quer liderá-las como 
+  Ele agrada;  geralmente o caminho é a santa meditação ... e 
+  não são os dons de Deus que tornam a alma santa, mas atos de virtude. 
+  <b> Regra Integral, 327 </b> </p> 
+  <p class=bibbia> As palavras que eu digo para você eu não falo como de mim mesmo;  isto 
+  é o Pai, vivendo em mim, que está fazendo este trabalho em mim. 
+  Você deve acreditar em mim quando digo que estou no Pai 
+  e ele está em mim. 
+  <b> João 14:10 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng8')> 8 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng8> 
+  <p> <b> Morte de S. Josephine Bakhita </b> </p> 
+  <p> Pai Nosso, que seja feita a tua vontade na terra como no céu! 
+  Faremos tudo o que for possível;  se Deus não favorecer 
+  nossa intenção, devemos adorar a Sua Divina Vontade ... Vamos 
+  deixe a coisa nas mãos de Deus até outra ocasião 
+  apresenta-se que pode resolver este mesmo problema. 
+  <b> Epistolario I, 215 </b> </p> 
+  <p class=bibbia> Eu julgo como me dizem para julgar, e meu julgamento é justo, porque meu objetivo é não fazer minha própria vontade, mas a vontade do pai. 
+  <b> João 5:30 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng9')> 9 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng9> 
+  <p> Se sua Madalena pudesse se reduzir a um grão de 
+  areia, você iria encontrá-lo nesta carta porque eu 
+  ficaria feliz em ver todos vocês mais uma vez, mas o que 
+  conta é amar e realizar, acima de tudo, aquilo que é 
+  mais bonita, isto é, a vontade de Deus. 
+  <b> Epistolario I, 477 </b> </p> 
+  <p class=bibbia> "Bem-aventurada aquela que acreditou que a promessa feita a 
+  ela pelo Senhor seria cumprida ". 
+  <b> Lucas 1:45 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng10')> 10 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng10> 
+  <p> Nossa perda é verdadeiramente irreparável, mas o que Deus faz nunca é 
+  errado.  Vamos adorar com amor a Sua santa divina vontade e ser 
+  feliz.  Estou feliz com tudo o que o Senhor faz. 
+  <b> Epistolario III / 2, 809 </b> </p> 
+  <p class=bibbia> "Feliz o ventre que te deu!"  Mas Jesus respondeu 
+  eles: "Ainda mais felizes aqueles que ouvem a palavra de Deus 
+  e mantê-lo. 
+  <b> Lucas 11:28 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng11')> 11 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng11> 
+  <p> O mais importante é saber realmente sempre 
+  vontade de Deus e onde podemos fazer muito bem.  Enquanto isso, vamos orar muito e fazer outras pessoas orarem também. 
+  Peça a muitas pessoas boas para implorar a Divina Misericórdia. 
+  <b> Epistolario I, 228 </b> </p> 
+  <p class=bibbia> Sabemos que transformando tudo em seu bem, Deus 
+  coopera com todos aqueles que Ele chamou de acordo 
+  para o seu propósito. 
+  <b> Romanos 8:28 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng12')> 12 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng12> 
+  <p> Pai Nosso, que seja feita a tua vontade na terra como no céu! 
+  Sinto muito o peso de muitas correntes: recomendo 
+  eu mesmo às suas orações.  Que o Senhor ilumine, disponha, facilite tudo o que Ele quer de mim, agora 
+  e no futuro.  Ore e faça os outros orarem por mim 
+  Madalena 
+  <b> Epistolario I, 213 </b> </p> 
+  <p class=bibbia> Todo mundo que ouve estas minhas palavras e age 
+  sobre eles, será como um homem sensato que construiu sua casa 
+  na rocha. 
+  <b> Mateus 7:24 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng13')> 13 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng13> 
+  <p> Lembre-se mais uma vez e sempre do que eu repito 
+  Para você em vários lugares, o fruto que você produzirá sempre estará de acordo com sua precisão no cumprimento de seus deveres para com Deus.  Ame o senhor 
+  com todo seu coração e alma. 
+  <b> Regra Integral, 375 </b> </p> 
+  <p class=bibbia> Ouça: "Aquele que recebeu a semente em solo rico é 
+  o homem que ouve a palavra de Deus e a entende ... produz cem, agora sessenta, agora trinta. 
+  <b> Mateus 13: 23 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng14')> 14 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng14> 
+  <p> Miserável como somos, nossa distração, nossa falta de resposta 
+  e nosso amor próprio pode despertar em nós algumas tentações que 
+  poderia esfriar o Espírito original, mas o mesmo Espírito diz 
+  que o homem obediente cantará a vitória. 
+  <b> Regra Integral, 76 </b> </p> 
+  <p class=bibbia> Ao vir ao mundo, Cristo disse a Deus: "Senhor, você 
+  quem não queria sacrifícios e oblações pelos pecados ... aqui 
+  Eu sou o Deus para fazer a sua vontade. 
+  <b> Hebreus 10: 5-10 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng15')> 15 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng15> 
+  <p> Esse trabalho no hospital me enche de alegria.  eu agradeço 
+  Misericórdia Divina que tão docemente e fortemente leva aqueles 
+  que são fiéis a ele para cumprir sua vontade. 
+  <b> Epistolario I, 101 </b> </p> 
+  <p class=bibbia> Aceite e submeta à Palavra que Deus plantou em 
+  seu coração ... examine e observe com fidelidade a lei perfeita do Senhor que traz liberdade. 
+  <b> Tiago 1: 21-25 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng16')> 16 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng16> 
+  <p> Pai Nosso, que seja feita a tua vontade na terra como no céu! 
+  Perder alguém querido ou sofrer muitas decepções dolorosas, é um fardo muito pesado para carregar.  Pode o 
+  Senhor nos dê paciência em tudo e até tranquilidade 
+  quando ele pensa melhor.  Lembre-se de fazer as pessoas rezarem 
+  para mim. 
+  <b> Epistolario I, 96 </b> </p> 
+  <p class=bibbia> Se tivermos que suportar sofrimentos com Cristo, seremos consolados por ele.  Nós sabemos que você compartilha nossos sofrimentos e consolações. 
+  <b> 2 Co 1: 5-7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng17')> 17 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng17> 
+  <p> Para abrir apenas uma casa, precisamos de tempo, paciência e 
+  sofrimento.  Faça sempre o que puder e não se preocupe 
+  o que você não pode fazer;  espera no tempo de Deus que traz tudo para a conclusão, com decisão e bondade em 
+  tudo 
+  <b> Epistolario III / 4, 178 </b> </p> 
+  <p class=bibbia> Eu suporto todo sofrimento, dificuldade e ansiedade com grande 
+  paciência;  Eu provo pureza, sabedoria, paciência, bondade, 
+  espírito de santidade e amor sincero. 
+  <b> 2 Co 6: 3-10 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng18')> 18 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng18> 
+  <p> Eu decidi que, considerando a paixão, as Tertiarries 
+  deve refletir sobre a caridade excessiva de Jesus Cristo e 
+  rezar para poder suportar, com amor, a amargura, os insultos, o desprezo, o esquecimento e os erros. 
+  <b> Memorie XV, 63 </b> </p> 
+  <p class=bibbia> Para aqueles que conhecem a Deus, é uma graça sofrer injustamente.  Se você faz o bem e se coloca pacientemente com os sofrimentos, é uma graça de Deus. 
+  <b> 1 Pedro 2: 19-21 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng19')> 19 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng19> 
+  <p> Não se preocupe.  Deus nos ajudará e você verá isso com 
+  paciência vamos superar tudo, mas precisamos de coragem e mais coragem.  Peça a outros que façam a pequena novena ao Coração de Maria.  Não duvide, vou pedir aos outros 
+  rezar por você. 
+  <b> Epistolario III / 2, 939 </b> </p> 
+  <p class=bibbia> Sabemos que os sofrimentos trazem paciência, paciência traz 
+  perseverança e perseverança traz esperança. 
+  <b> Romanos 5: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng20')> 20 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng20> 
+  <p> Pai Nosso, que seja feita a tua vontade na terra como no céu! 
+  Se você tiver paciência, o Senhor abrirá um caminho no tempo.  Minhas 
+  a saúde está melhorando, mas muito lentamente, já que eu não tenho força.  Esperemos que minha força retorne. 
+  Com saudações sinceras deixo-te no Coração de Maria. 
+  <b> Epistolario III / 4, 2492 </b> </p> 
+  <p class=bibbia> Porque devemos nos contentar em esperar que sejamos salvos. 
+  Nossa salvação não está à vista, não deveríamos estar esperando por ela se fosse. 
+  <b> Romanos 8:24 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng21')> 21 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng21> 
+  <p> Estou convencido, como você diz, que precisamos sempre de muito 
+  oração;  vamos fazer isso e, se o Senhor quiser que este trabalho 
+  ser estabelecido, teremos sucesso com paciência, coragem 
+  e tempo. 
+  <b> Epistolario I, 24 </b> </p> 
+  <p class=bibbia> Pense em um fazendeiro: com que paciência ele sempre espera pelo 
+  fruta preciosa do solo até que tenha recebido chuva. 
+  Você também tem que ser paciente e corajoso. 
+  <b> Tiago 5: 7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng22')> 22 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng22> 
+  <p> Eu posso ver claramente que para este trabalho precisamos de paciência 
+  dos santos;  o diabo vai se defender até o fim 
+  e não teremos medo.  Duro contra dura quebra o 
+  parede. 
+  <b> Epistolario III / 4, 2798 </b> </p> 
+  <p class=bibbia> Tenha confiança agora, já que a recompensa é tão grande.  Você irá 
+  precisa de resistência para fazer a vontade de Deus e ganhar o que Ele tem 
+  prometido. 
+  <b> Hebreus 10:37 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng23')> 23 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng23> 
+  <p> Ame o Senhor o máximo que puder, não só porque ele 
+  quem está apaixonado não sente nenhum fardo, como o amor não é sobrecarregado por 
+  qualquer coisa, mas porque se você ama a Deus como deveria, com 
+  toda a tua alma, mente e coração, o seu jugo será luz e 
+  doce. 
+  <b> Regra Geral 375 </b> </p> 
+  <p class=bibbia> Você entende que sua fé só é testada 
+  faça você paciente. 
+  <b> Tiago 1: 2 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng24')> 24 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng24> 
+  <p> Pai Nosso, que seja feita a tua vontade na terra como no céu! 
+  Em todo lugar, embora tenhamos muitos anjos disfarçados 
+  nossos companheiros, ainda precisamos de muita paciência, paz e 
+  coragem para manter as coisas em ordem.  Eu vou rezar para o nosso 
+  Senhora nesta novena. 
+  <b> Scritti Spirituali II, 350 </b> </p> 
+  <p class=bibbia> O que quer que aconteça com você, aceite-o e nas incertezas 
+  seja paciente.  Como o ouro é testado em fogo, a humilhação coloca 
+  o julgamento aquele que é querido para Deus. 
+  <b> Eclesiastes 2: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng25')> 25 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng25> 
+  Mesmo o próprio pensamento da mágoa deve ser prontamente descartado para não dar comida à imaginação, pensando em ter recebido uma mágoa de alguém, mesmo sob 
+  o disfarce da santa intenção de oferecê-lo a Deus como um 
+  ato de virtude. 
+  <b> Regra Interna 248 </b> </p> 
+  <p class=bibbia> Não faça reclamações uns contra os outros, para que não 
+  para ser julgado.  Tome os profetas para o seu exemplo no 
+  nome do Senhor. 
+  <b> Tg 5: 8 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng26')> 26 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng26> 
+  <p> Quem quer amar o Senhor deve estar pronto para abraçar qualquer encontro doloroso, pelo menos com paciência e 
+  gentileza.  Nosso Salvador declarou que Ele veio para servir 
+  e não para ser servido. 
+  <b> Regra Integral 148 </b> </p> 
+                         <p class=bibbia> Não é você quem estará falando;  será o Espírito Santo.  Você será odiado por todos os homens por causa do meu nome;  mas o homem que permanecer firme até o fim será salvo. 
+  <b> Marcos 13:13 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng27')> 27 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng27> 
+  <p> Os sofrimentos deste mundo não são proporcionados ao 
+  grandeza da glória que nos será manifestada. 
+  O que é particularmente importante é que todos vocês devem amar 
+  o Senhor muito. 
+  <b> Regra Geral 374 </b> </p> 
+  <p class=bibbia> Tão lento para acreditar na mensagem completa dos profetas!  Estava 
+  não ordenou que o Cristo deveria sofrer e assim entrar 
+  em sua glória?  Então Jesus disse a eles. 
+  <b> Lucas 24:26 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng28')> 28 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng28> 
+  <p> Pai Nosso, que seja feita a tua vontade na terra como no céu! 
+  Despedida.  É inútil dizer-lhe que seja paciente porque Deus lhe recompensará por tudo.  Adeus, uma vez 
+  novamente, ore por mim e, se for a vontade de Deus, ore para que 
+  Inverno podemos mudar de casa. 
+  <b> Epistolario I, 297 </b> </p> 
+  <p class=bibbia> O homem paciente aguentará até a hora chegar.  Temer 
+  o Senhor é o começo da sabedoria;  faz a paz e a saúde florescer 
+  <b> Eclesiastes 1: 23,27 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m02eng29')> 29 de fevereiro </a> </h3> 
+  <hr> 
+  <div class=bordo id=m02eng29> 
+  <p> Eu sei que você terá que exercitar grande paciência, mas acredite, minha querida Filha, o caminho da paciência é o que santifica e o Senhor irá ajudá-lo.  Eu sempre recomendarei você ao Senhor para que Ele o ajude em tudo que você faz pelo seu amor. 
+  <b> Epistolario III / 4, 2455 </b> </p> 
+  <p class=bibbia> Você será odiado por todos por causa do meu nome, mas não por 
+  o cabelo da sua cabeça será perdido.  Sua resistência lhe conquistará suas vidas. 
+  <b> Lucas 21: 19 </b> </p> 
+  </div> 
+  </ons-modal> 
+  </div> 
+  <div class=item> 
+  <br> 
+  <a href=# onclick="showModal('marcha');"> 
+  <ons-icon icon="calendar"></ons-icon><br> 
+  marcha 
+  </a> 
+  <ons-modal id=março> 
+  <p align = center> <a href=# onclick="closeModal('marcha')"> <b> Março </b> 
+  <img src=img/close.png> 
+  </a> 
+  </p> 
+  <p> Jesus, manso e humilde de coração, faça-nos mansos e humildes </p> 
+  <hr> 
+  <h3> <a href=# onclick=toggle('m03eng1')> 1º de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng1> 
+  <p> <b> Aniversário de S. Madalena de Canossa </b> </p> 
+  <p> Para ter sucesso na educação dessas meninas, é apropriado 
+  estuda seu caráter e temperamento;  É necessário 
+  valorizar a formação do coração e isso significa usar 
+  maior gentileza com um, mais força e raciocínio com outro. 
+  <b> Regra integral 142 </b> </p> 
+  <p class=bibbia> Eu mesmo ensinei Efraim a andar, eu o tomei em meus braços;  Eu 
+  levou-o com rédeas de bondade, com as principais cordas de amor. 
+  <b> Oséias 11: 3-4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng2')> 2 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng2> 
+  <p> <b> Batismo de S. Madalena de Canossa </b> </p> 
+  <p> Quando as meninas confiam algo a elas, elas devem 
+  não repreendê-los e nem devem reprová-los para 
+  mais tarde.  Se uma menina pedir uma opinião ou conselho, eles 
+  deve dar-lhe grande caridade procurando o bem maior da menina. 
+  <b> Regra completa 144 </b> </p> 
+  <p class=bibbia> Aqui está meu servo ... ele não grita ... ele não 
+  Quebre o junco esmagado, nem apague a chama vacilante. 
+  <b> Isaías 42: 1-3 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng3')> 3 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng3> 
+  <p> Vamos olhar para o nosso Senhor Crucificado recordando o que Ele sofreu na cruz com paciência inconquistável, 
+  mansidão, tolerância e gentileza.  Ele se esqueceu de amor para nos salvar. 
+  <b> Regra Integral 159 </b> </p> 
+  <p class=bibbia> Sem beleza, sem majestade, sem olhar para atrair nossos 
+  olhos, uma coisa desprezada e rejeitada pelos homens, um homem de 
+  tristezas. 
+  <b> Isaías 53: 2.3 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng4')> 4 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng4> 
+  <p> Vamos tratar os doentes como se estivéssemos tratando a pessoa de 
+  Jesus Cristo com caridade, bondade, cordialidade, prudência, 
+  reverência, compaixão e interesse. 
+  <b> Regra Integral 163 </b> </p> 
+  <p class=bibbia> Quando Jesus viu a grande multidão, Ele teve pena deles 
+  e disse aos seus discípulos: "Dê-lhes algo para comer". 
+  <b> Mateus 14:14 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng5')> 5 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng5> 
+  <p> Em relação ao chefe do hospital, as enfermeiras e outros 
+  pessoal, devemos nos comportar com gentileza, boas maneiras e dependência em tudo o espírito de caridade 
+  permite.  Lembre-se que paciência é a nossa armadura. 
+  <b> Regra Integral 172 </b> </p> 
+  <p class=bibbia> Deus cuida dos justos e sua herança durará para sempre; 
+  eles não ficarão perdidos quando os maus momentos chegarem. 
+  <b> Salmo 37:18 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng6')> 6 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng6> 
+  <p> Aqueles que estão no comando devem se comportar com gentileza, 
+  caridade e humildade com todos em seu trabalho e serviço;  com a mesma instituição de caridade eles devem informá-los se 
+  eles fizeram algo errado. 
+  <b> Regra Integral 252 </b> </p> 
+  <p class=bibbia> Como homem de Deus, você deve procurar ser santo e religioso, 
+  cheio de fé e amor, paciente e gentil.  Lutar contra o 
+  boa luta da fé. 
+  <b> 1 Timóteo 6:11 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng7')> 7 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng7> 
+  <p> Nos trabalhos internos, eles aceitarão com caridade e 
+  mansidão o que eles são ordenados a fazer, evitando todas as rejeições, ferindo ou mortificando uns aos outros por causa de 
+  o pobre resultado de seus empreendimentos caritativos. 
+  <b> Regra Integral 252 </b> </p> 
+  <p class=bibbia> Os humildes devem possuir a terra e desfrutar sem problemas 
+  Paz.  Os justos sempre falam com sabedoria e honestidade. 
+  <b> Salmo 37: 11,30 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng8')> 8 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng8> 
+  <p> 
+  A humildade requer que se fale com expressão serena, mansidão de maneiras e mansidão de coração e 
+  não falar com afetação ou procurar expressões elegantes. 
+  <b> Regra Integral 278 </b> </p> 
+  <p class=bibbia> Um homem sábio usa palavras inteligentes;  suas palavras são mais 
+  persuasivo.  Por favor, as palavras são um pente de mel, doce para o 
+  gosto, saudável para o corpo. 
+  Provérbios 16:24 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng9')> 9 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng9> 
+  <p> Tente descobrir seu caráter, temperamento e inclinação 
+  para entender e julgar se é mais eficaz e oportuno para seu bem espiritual 
+  guie-a sempre com gentileza e firmeza. 
+  <b> Regra Integral 312 </b> </p> 
+  <p class=bibbia> Efraim é tão querido filho para mim, uma criança tão favorecida?  ... EU 
+  Ainda estou profundamente comovido por ele e minha ternura anseia 
+  para ele. 
+  <b> Jeremias 31:20 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng10')> 10 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng10> 
+  <p> A Irmã encarregada do hospital deve ser uma pessoa de 
+  grande espírito interior, prudente, gentil e zeloso para 
+  almas e caridade para descobrir as necessidades dos doentes. 
+  <b> Regra Integral 336 </b> </p> 
+  <p class=bibbia> Como um filho consolado por sua mãe, eu te consolarei 
+  e acariciá-lo como uma mãe faz com a criança no colo. 
+  <b> Isaías 66:13 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng11')> 11 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng11> 
+  <p> Lembremo-nos da carinhosa afeição com que Jesus 
+  Cristo reuniu filhos para si e quanto ele 
+  mostrou que Ele se importava que eles fossem bem recebidos por nós, assegurando 
+  nós que quem recebe uma criança em seu nome recebe 
+  Ele. 
+  <b> Regra completa 349 </b> </p> 
+  <p class=bibbia> Quem recebe uma criança em meu nome me recebe; 
+  e quem me recebe, recebe aquele que me enviou. 
+  <b> Lucas 9:48 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng12')> 12 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng12> 
+  <p> 
+  Quando os pobres chegarem à porta, ela os tratará 
+  com caridade, gentileza e reverência;  ela nunca deve 
+  mostrar impaciência ou aborrecimento por sua prematura e 
+  nunca os faça esperar. 
+  <b> Regra Integral 355 </b> </p> 
+  <p class=bibbia> Para o homem pobre, dê ouvidos, e retorne sempre sua saudação com cortesia. 
+  <b> Eclesiastes 4: 8 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng13')> 13 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng13> 
+  <p> Ajude os doentes com grande caridade, paciência e gentileza;  não mostre que você está sobrecarregado ou aborrecido; 
+  esteja atento para que recebam os sacramentos e os confortos da Igreja. 
+  <b> Regra Geral 371 </b> </p> 
+  <p class=bibbia> O Senhor é misericordioso, de coração terno, lento para a ira e 
+  muito amável.  O Senhor é bom para todos, Sua misericórdia é para todos 
+  criatura. 
+  <b> Salmo 145: 9 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng14')> 14 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng14> 
+  <p> Na oração Deus não só me fez perceber que Ele merece tudo, mas também me consolou com uma preocupação especial 
+  e amor terno. 
+  <b> Memórias II, 5 </b> </p> 
+  <p class=bibbia> Você prepara uma mesa antes de mim.  Sua bondade e bondade me perseguem, todos os dias da minha vida;  Eu ficarei na casa do Senhor enquanto eu viver. 
+  <b> Salmos 23: 5.6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng15')> 15 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng15> 
+  <p> Passei dois anos no meu Retiro em serenidade, muito feliz por 
+  estar lá.  Algum tempo depois, enquanto orava, o Senhor me preparou para a primeira missão em Veneza, com extraordinários consolos e um vivo desejo de trabalhar pelas almas. 
+  <b> Memórias II, 33 </b> </p> 
+  <p class=bibbia> Que a doçura do Senhor esteja sobre nós!  Que ele faça tudo 
+  nós conseguimos. 
+  <b> Salmo 90:17 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng16')> 16 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng16> 
+  <p> 
+  Eu também lembro que me encontrei muito perturbado e 
+  tentado.  Eu me senti repreendido e lembrado das promessas que 
+  tinha feito, mas tocado pela doçura amorosa com 
+  que Ele estava me repreendendo. 
+  <b> Memórias V, 7 </b> </p> 
+  <p class=bibbia> O Senhor é terno e compassivo, vagaroso em irar-se, 
+  mais carinhoso;  seu ressentimento dura pouco tempo, Ele nunca 
+  nos castiga como nossa culpa e pecados merecem. 
+  <b> Salmo 103: 8-10 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng17')> 17 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng17> 
+  Eu tinha uma iluminação interior sobre o significado de buscar somente a Deus e a Cristo Crucificado, sempre no caminho das primeiras intuições, isto é, com a doçura e delicadeza da linguagem de Deus. 
+  <b> Memórias V, 9 </b> </p> 
+  <p class=bibbia> O temor do Senhor é puro, duradouro para sempre;  os juízos do Senhor são verdadeiros, mais desejáveis ​​que o melhor ouro. 
+  <b> Salmo 19:10 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng18')> 18 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng18> 
+  Ao recitar um verso sobre o amor de Jesus, o 
+  Senhor docemente censurou-me, perguntando-me se essa era a 
+  jeito certo de responder ao Seu grande amor por mim, afinal 
+  que Ele fez por mim. 
+  <b> Memórias VIII, 16 </b> </p> 
+  <p class=bibbia> Senhor, meu Deus, você concede misericórdia, honra e alegria àqueles 
+  quem faz a sua vontade.  Bendito é aquele que confia em você! 
+  <b> Salmo 84:12 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng19')> 19 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng19> 
+  <p> Das consolações que derivam da minha sensação de bem-estar, pareceu-me que era realmente 
+  o Senhor me assegurando que, por tudo que eu sofria, Ele sempre seria 
+  meu, e que um dia, eu ganharia a posse de 
+  Deus. 
+  <b> Memórias VII, 49 </b> </p> 
+  <p class=bibbia> Senhor, minha herança, meu cálice, só você mantém minha segurança. 
+  Você revelará o caminho da vida para mim: à sua direita 
+  sempre prazeres eternos. 
+  <b> Salmo 16: 5,11 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng20')> 20 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng20> 
+  <p> 
+  De acordo com a obediência, tenho que trilhar o caminho do amor 
+  então eu tomei coragem e ... gradualmente meu desejo pela glória 
+  de Deus me varreu e me ofereci a ele. 
+  <b> Memórias XII, 40 </b> </p> 
+  <p class=bibbia> Uma coisa peço ao Senhor, somente isso eu procuro;  viver no 
+  casa do Senhor todos os dias da minha vida, para desfrutar da Sua 
+  Doçura. 
+  <b> Salmo 27: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng21')> 21 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng21> 
+  <p> Precisamos ter uma verdadeira união de corações: um coração e um 
+  vai;  eles devem sempre amar uns aos outros sinceramente sem 
+  qualquer distinção, cada um querendo sempre o que o outro 
+  desejos e não querendo o que desagrada ao outro. 
+  <b> Regra Incompleta 246 </b> </p> 
+  <p class=bibbia> A sabedoria que vem de Deus é essencialmente pura;  isto 
+  faz a paz e é gentil e atencioso, cheio de compaixão e faz boas obras sem preferência. 
+  <b> Tiago 3:17 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng22')> 22 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng22> 
+  <p> Sempre devemos cumprir o mandamento de Jesus Cristo 
+  amando um ao outro com todo o nosso coração.  Não dê um 
+  má interpretação para as ações dos outros, mas sempre 
+  dê a interpretação de acordo com a santa caridade. 
+  <b> Regra Interna 247 </b> </p> 
+  <p class=bibbia> Procure a beleza que está dentro do coração de uma pessoa, já que é 
+  imperecível.  Tente nutrir um coração bom e sereno: 
+  isso é precioso aos olhos de Deus. 
+  <b> 1 Pedro 3: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng23')> 23 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng23> 
+  <p> Que eles ofereçam ao Senhor a quebra imediata de toda reflexão sobre qualquer palavra ou ação feita contra eles: 
+  eles devem esquecê-lo inteiramente, sem falar dele e sempre dando a melhor interpretação. 
+  <b> Regra Interna 248 </b> </p> 
+  <p class=bibbia> Tente fazer o bem antes de todos os homens.  Se possível, do que depende de você, viva em paz com todos. 
+  <b> Romanos 12:17 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng24')> 24 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng24> 
+  <p> 
+  Eles não devem defender sua própria opinião, nem se gabar do trabalho que fazem, nem interromper uma conversa e 
+  muito menos usar palavras ásperas, amargas ou mortificantes, nem ser 
+  ofendido por piadas que poderiam perturbar a caridade. 
+  <b> Regras Completas 249 </b> </p> 
+  <p class=bibbia> Um servo do Senhor não deve se envolver em brigas, mas tem 
+  ser gentil com todos, paciente quando ofendido e gentil quando ele corrige os outros. 
+  <b> 2 Timóteo 2:24 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng25')> 25 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng25> 
+  <p> Ninguém deve falar com ressentimento ou descontrole 
+  emoção para outro, nem use palavras ou termos ofensivos; 
+  eles não devem levantar a voz ou reagir.  Eles não devem 
+  usar gestos de desprezo porque a Caridade será destruída 
+  yed. 
+  <b> Regras Completas 253 </b> </p> 
+  <p class=bibbia> Nunca pague um erro com outro, ou um zangado 
+  palavra com outro;  em vez disso, pague de volta com uma bênção. 
+  <b> 1 Pedro 3: 9 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng26')> 26 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng26> 
+  <p> Eles devem suportar um ao outro e quando alguém 
+  pede perdão, o outro sempre responde gentilmente e 
+  cordialmente, mostrando e realmente perdoando qualquer ofensa ou 
+  ferida. 
+  <b> Regra Integral 253 </b> </p> 
+  <p class=bibbia> Você é a raça escolhida de Deus, você deve ser revestido de sincera compaixão, com bondade e humildade, gentileza e paciência. 
+  <b> Colossenses 3: 12-13 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng27')> 27 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng27> 
+  <p> Eles devem interiormente mortificar suas paixões, indo contra 
+  sua própria vontade e não satisfazer o seu amor-próprio, a fim de que 
+  Só Deus pode viver neles.  Além disso, orgulho, raiva e 
+  carinho desmedido deve ser arrancado. 
+  <b> Regras Completas 265 </b> </p> 
+  <p class=bibbia> Ouça-me: o que o Espírito traz é amor, alegria, paz, paz 
+  bondade, bondade, confiança, delicadeza e 
+  autocontrole. 
+  <b> Galações 5:22 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng28')> 28 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng28> 
+  <p> Reflita sempre que se todos tentarem se absorver 
+  em seu trabalho e permanecer em seu nada e prática 
+  humildade não haveria concorrência, argumentos e 
+  desunião no mundo. 
+  <b> Regra Integral 265 </b> </p> 
+  <p class=bibbia> Deus escolheu aqueles que não são nada para aparecer 
+  aqueles que são tudo, os fracos para destruir o 
+  Forte. 
+  <b> 1 Coríntios 1:27 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng29')> 29 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng29> 
+  <p> Uma lesão sofrida com um rosto sereno e sorridente, sem 
+  reclamações ou respondendo de volta será mais eficaz 
+  do que seus ensinamentos e discursos para ganhar almas. 
+  <b> Regra Integral 266 </b> </p> 
+  <p class=bibbia> Cristo foi insultado e não retaliou com insultos, 
+  quando foi torturado, não fez ameaças, mas colocou a sua 
+  confiar no justo juiz. 
+  <b> 1 Pedro 2:23 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng30')> 30 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng30> 
+  <p> Quem quer realmente fazer o bem ao próximo precisa 
+  dominar a paixão da raiva por mortificar e lutar 
+  até que seja subjugado e não seja mais sentido, como uma estátua.  Assim, a mortificação interna é necessária. 
+  <b> Regra Integral 266 </b> </p> 
+  <p class=bibbia> Nunca tenha rancor contra os outros ou perca a paciência. 
+  Seja amigo de todos, perdoando um ao outro tão prontamente 
+  como Deus te perdoou em Cristo. 
+  <b> Efésios 4: 31-32 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m03eng31')> 31 de março </a> </h3> 
+  <hr> 
+  <div class=bordo id=m03eng31> 
+  <p> Assim que voltei para casa, fiquei surpreso com uma falha que 
+  comprometido.  Eu tinha me tornado impaciente por ter que corrigir 
+  companheiro.  Eu me recompus imediatamente pelo 
+  graça da divina misericórdia. 
+  <b> Memórias VIII, 24 </b> </p> 
+  <p class=bibbia> Se um de vocês comete uma falta, mais espiritual você 
+  quem o acertou deveria fazê-lo com um espírito de gentileza. 
+  Vigia para que não fiques tentado. 
+  <b> Gálatas 6: 1 </b> </p> 
+  </div> 
+  </ons-modal> 
+  </div> 
+  <div class=item> 
+  <br> 
+  <a href=# onclick="showModal('abril');"> 
+  <ons-icon icon="calendar"></ons-icon><br> 
+  abril 
+  </a> 
+  <id -ons-modal = abril> 
+  <p align = center> <a href=# onclick="closeModal('abril')"> <b> Abril </b> 
+  <img src=img/close.png> 
+  </a> 
+  </p> 
+  <hr> 
+  <p> Jesus Crucificado, o Maior Amor, Abençoe nossas lutas! </p> 
+  <hr> 
+  <h3> <a href=# onclick=toggle('m04eng1')> 1º de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng1> 
+  <p> Durante a Semana Santa, enquanto lê um livro de meditação 
+  verso "Inspice et Fac secundum exemplar", eu experimentei 
+  encadeou uma agitação interna, tão forte que permaneceu com 
+  eu por vários dias.  Senti-me instado a seguir o Crucificado 
+  Cristo, mas sem entender nada claramente. 
+ <b> Memórias I, 32 </b> </p> 
+  <p class=bibbia> Tem em você os mesmos sentimentos que estavam em Cristo Jesus, que não se apegaram com inveja à sua igualdade com Deus. 
+  <b> Filipenses 2: 6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng2')> 2 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng2> 
+  <p> Então, encontrei consolo apenas em oração.  Um dia, cristo 
+  Crucificado mostrou-se a mim e eu entendi que eu 
+  tinha que ser privado da presença sensível de Deus, para 
+  que eu não sabia me adaptar. 
+  <b> Memórias IV, 7 </b> </p> 
+  <p class=bibbia> "Leve-o embora e crucifique-o" ... "Você quer que eu 
+  crucificar o seu rei? "Então eles entregaram-no para ser crucificado. 
+  <b> João 19: 15-16 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng3')> 3 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng3> 
+  <p> Enquanto eu estava na Igreja orando pelo Instituto, 
+  tar da Virgem, contemplando Cristo Crucificado, eu tive um 
+  imagem mental de uma cruz simples e eu tinha uma compreensão interior que eu tinha que me preparar para a cruz, uma 
+  cruze por mim. 
+  <b> Memórias IV, 40 </b> </p> 
+  <p class=bibbia> Enquanto eles o levavam embora, eles capturaram Simon de 
+  Cirene e fez com que ele levasse a cruz para carregá-la 
+  atrás dele. 
+  <b> Lucas 23:26 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng4')> 4 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng4> 
+  <p> O texto "Torcular calcavi solus et de gente mea 
+  non est mecum "(" Eu pisei sozinho o lagar. 
+  Nenhuma das pessoas estava comigo. "É 63: 3) veio antes de mim, seja através da minha imaginação ou na 
+  maneira usual, eu não sei. 
+  <b> Memórias V, 15 </b> </p> 
+  <p class=bibbia> Pilatos mandou Jesus levar e flagelou;  e depois, o 
+  soldados torcidos alguns espinhos em uma coroa e colocá-lo em 
+  a sua cabeça. 
+  <b> João 19: 1-2 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng5')> 5 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng5> 
+  <p> Em outras ocasiões, sem ver nada com o meu corpo 
+  nem com qualquer impulso interior forte, o Crucificado 
+  Cristo foi freqüentemente mostrado a mim como Ele realmente é, despojado de 
+  tudo. 
+  <b> Memórias V, 19 </b> </p> 
+  <p class=bibbia> Judas, um dos Doze, subiu a Jesus para beijá-lo. 
+  Jesus disse: "Judas, você está traindo o Filho do Homem com 
+  um beijo?" 
+  <b> Lucas 22: 47-48 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng6')> 6 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng6> 
+  <p> Encontrando-me abalado pelo medo de que alguns problemas previstos pudessem causar o colapso do nosso Trabalho, o Senhor fez 
+  bastante claro para mim que um trabalho, assediado pela tribulação, é o 
+  maior prova de que pertence a ele. 
+  <b> Memórias VI, 15 </b> </p> 
+  <p class=bibbia> Eu considero todas estas vantagens como desvantagens e acredito que nada pode acontecer que supere o supremo 
+  vantagem de conhecer a Cristo Jesus, meu Senhor. 
+  <b> Filipenses 3: 7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng7')> 7 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng7> 
+  <p> O momento se aproximava quando Deus achava adequado visitar 
+  eu com uma cruz.  Dada a minha fraqueza, não apareceu 
+  pequeno.  Enquanto eu estava rezando diante do Santíssimo Sacramento, 
+  de repente eu vi Jesus Cristo Crucificado coberto com 
+  feridas 
+  <b> Memórias VIII, 3 </b> </p> 
+  <p class=bibbia> Na nona hora, Jesus clamou em alta voz: "Meu 
+  Deus, meu Deus, por que você me abandonou? "Jesus deu um 
+  grito alto e respirou seu último. 
+  <b> Marcos 15: 33-37 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng8')> 8 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng8> 
+  <p> Eu não tinha força física para me unir interiormente ao Senhor, então abandonei a minha alma no lugar de Deus. 
+  mãos que Ele poderia fazer com o que quisesse;  Eu 
+  então permaneceu muito lembrado. 
+  <b> Memórias VIII, 23 </b> </p> 
+  <p class=bibbia> Venha a mim, todos vocês que trabalham e estão sobrecarregados, 
+  e eu lhe darei descanso, e você encontrará descanso para o seu 
+  almas. 
+  <b> Mateus 11:28 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng9')> 9 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng9> 
+  <p> No final da minha oração, acho que vi uma pequena cruz 
+  plantada no meio da minha alma e foi muito pesado. 
+  Desde que eu naturalmente me afasto do sofrimento, eu tentei distrair 
+  eu mesmo desses pensamentos. 
+  <b> Memórias XII, 32-33 </b> </p> 
+  <p class=bibbia> Em ti, ó Senhor, eu me refugio;  Nunca me deixe ser desonrado. 
+  Em sua justiça me livre, me resgate, vire sua orelha para 
+  eu me apresse! 
+  <b> Salmo 31: 1 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng10')> 10 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng10> 
+  <p> Enquanto orava, eu podia perceber a essência de Deus no meu interior 
+  auto.  Eu senti como se a alma estivesse sendo transportada, com 
+  grande paz e doçura, unir-se a Deus e 
+  imerso nele. 
+  <b> Memórias XII, 30 </b> </p> 
+  <p class=bibbia> Tocar música em honra do Senhor, você seus fiéis, lembre-se da Sua santidade.  Sua raiva dura um momento, 
+  favor a vida toda. 
+  <b> Salmo 30: 5-6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng11')> 11 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng11> 
+  <p> Eu fiz um ato sincero de contrição e até me fiz 
+  disponível, se possível, para ser reduzido a átomos de pó, apenas 
+  para ver Deus glorificado e eu também estava preparado para sofrer o 
+  dores do inferno, desde que ninguém entrasse lá. 
+  <b> Memórias XII, 43 </b> </p> 
+  <p class=bibbia> Eu nunca mantive sua justiça para mim mesmo, mas tenho 
+  falou de sua fidelidade, amor e verdade no grande 
+  montagem. 
+  <b> Salmo 40:10 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng12')> 12 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng12> 
+  <p> Minha imaginação foi iluminada com uma visão de Jesus carregando a cruz em seus ombros, coroada de espinhos, 
+  e Ele disse: "Eu também estava fraco quando carreguei a cruz". 
+  <b> Memórias XIII, 42 </b> </p> 
+  <p class=bibbia> E ainda os nossos foram os sofrimentos que Ele teve.  Ele foi perfurado 
+  por nossas falhas, esmagados por nossos pecados. 
+  <b> Isaías 53: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng13')> 13 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng13> 
+  <p> Eu não consigo lembrar se eu me ofereci para carregar o 
+  cruze por Ele ou se o Divino Redentor Se apresentou diante de mim.  Eu o vi sem a cruz jogando 
+  Ele mesmo em meus braços;  Eu o vi em minha imaginação. 
+  <b> Memórias XIII, 60 </b> </p> 
+  <p class=bibbia> Dolorosamente tratado, Ele suportou humildemente;  como um cordeiro que é 
+  levou ao matadouro, por nossas falhas derrubadas 
+  morte. 
+  <b> Isaías 53: 7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng14')> 14 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng14> 
+  <p> Eu imaginei um grande sofrimento e a lembrança disso 
+  experiência ajudou-me, isto é, o imenso sofrimento de 
+  nosso Redentor e o peso de Sua cruz, assim eu fiz 
+  Não achei a cruz tão pesada quanto eu esperava. 
+  <b> Memórias XIII, 52,56 </b> </p> 
+  <p class=bibbia> Nele repousa uma punição que nos traz paz, e 
+  através de suas feridas somos curados. 
+  <b> Isaías 53: 5 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng15')> 15 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng15> 
+  <p> Mas a experiência espiritual foi tão forte que mesmo 
+  embora eu tivesse que lidar com assuntos e conversar, tudo me levou de volta a Deus.  Naquele dia senti 
+  muito recompensado pelo pouco que sofri por Sua obra. 
+  <b> Memórias III, 35,37 </b> </p> 
+  <p class=bibbia> Você pode entender a largura e o comprimento, a altura 
+  e a profundidade até você conhecer o amor de Cristo. 
+  <b> Efésios 3:18 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng16')> 16 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng16> 
+  <p> Eu permaneci recolhida e intimamente unida a Ele pelo 
+  duração de uma missa. Eu estava consolado para vê-lo sem 
+  a cruz e coroa de espinhos, e eu estava muito pronto 
+  carregar a cruz, se isso aliviar o seu sofrimento.  Eu também, 
+  ficou aliviado e em paz. 
+  <b> Memórias XIII, 61 </b> </p> 
+  <p class=bibbia> Fico feliz em sofrer por você.  Eu completei no meu sofrimento corporal o que falta aos sofrimentos de Cristo, 
+  por causa de seu corpo, a Igreja. 
+  <b> Colossenses 1:24 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng17')> 17 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng17> 
+  Neste estado de espoliação de tudo, uma noite, eu levantei meus olhos e vi o Jesus Crucificado no ato de expirar.  Baixei os olhos, mas ao criá-los pela segunda vez, lá o vi novamente. 
+  <b> Memórias XV, 22.23 </b> </p> 
+  <p class=bibbia> Uma escuridão tomou conta de toda a terra.  Jesus gritou em um 
+  voz alta e disse: "Pai, em suas mãos eu cometo meu 
+  espírito. "E Ele deu seu último suspiro. 
+  <b> Lucas 23: 44-46 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng18')> 18 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng18> 
+  <p> Naquela ocasião, vi o Senhor;  Ele estava parado, com 
+  uma cruz tão grande que não se podia ver o fim dela.  Como um 
+  resultado minha força aumentou e eu não estava mais com medo de 
+  sofrimentos, dos quais eu nunca sou privado. 
+  <b> Memórias XV, 44 </b> </p> 
+  <p class=bibbia> Pela força e pela lei Ele foi levado;  Ele foi arrancado 
+  a terra dos vivos e por nossas falhas Ele foi atingido 
+  na morte. 
+  <b> Isaías 53: 8 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng19')> 19 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng19> 
+  <p> Eu decidi que, considerando a paixão, as Tertiaries 
+  deve refletir sobre a caridade excessiva de Jesus Cristo e 
+  rezar para poder suportar, com amor, amargura, esquecimento e injustiças. 
+  <b> Memórias XV, 63 </b> </p> 
+  <p class=bibbia> Viva de acordo com o Cristo que você recebeu;  você deve 
+  esteja enraizado nEle e edifique-o e mantenha-se firme pela fé que lhe foi ensinada. 
+  <b> Colossenses 2: 6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng20')> 20 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng20> 
+  <p> Eu não consigo lembrar em detalhes as experiências espirituais 
+  dia, mas meu amor aumentou e ficou mais forte ... eu estava 
+  Deixou-se consumir o desejo de trabalhar para o Senhor e buscá-lo sozinho. 
+  <b> Memórias XIII, 13 </b> </p> 
+  <p class=bibbia> Defina-me como um selo em seu coração, como um selo em seu braço. 
+  Pois o amor é forte como a morte, ciosamente implacável como o Sheol. 
+  <b> Canção das Canções 8: 6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng21')> 21 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng21> 
+  Na sexta-feira santa, eu estava tão profundamente penetrado pelo sofrimento de Cristo que não pude fazer nada além de chorar.  Eu 
+  tentei muito não deixar meus companheiros perceberem. 
+  <b> Memórias XII, 15 </b> </p> 
+  <p class=bibbia> Grande número de pessoas O seguiu e das mulheres 
+  também, que lamentou e lamentou por ele: "... não 
+  chore por mim ... 
+  <b> Lucas 23:27 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng22')> 22 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng22> 
+  <p> Eu fiquei com um desejo ardente de trabalhar para o Senhor 
+  e não buscar mais nada senão somente Ele.  Por causa do meu 
+  fraqueza eu sempre cometo algumas imperfeições ao lidar com aqueles com quem eu vivo, mesmo que sejam 
+  piedosos. 
+  <b> Memórias XIII, 13 </b> </p> 
+  <p class=bibbia> Por que você está tão deprimido, minha alma?  Coloque sua esperança em 
+  Deus: Eu o louvarei ainda, meu salvador, meu Deus. 
+  <b> Salmo 42:12 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng23')> 23 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng23> 
+  <p> Eu pensei que iria morrer de amor, e não havia nada que eu 
+  poderia pensar, exceto Jesus Cristo.  Tanto quanto me lembro, o meu dia de Páscoa foi um dia de alegria que, no entanto, foi 
+  não proporcional à tristeza. 
+  <b> Memórias XII, 20 </b> </p> 
+  <p class=bibbia> Eu me lembro e minha alma derrete dentro de mim: eu estou no meu 
+  caminho para a tenda maravilhosa, para a casa de Deus, entre 
+  gritos de alegria e uma multidão exultante. 
+  <b> Salmo 42: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng24')> 24 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng24> 
+  <p> Significa animar todas as nossas ações e trabalhar com o Espírito de Jesus Cristo, um espírito de caridade, mansidão, mansidão e humildade, um espírito de zelo e fortaleza, 
+  espírito amável, mais generoso e mais paciente. 
+  <b> Regra Integral, 19 </b> </p> 
+  <p class=bibbia> Como filhos dele que Ele ama, tente imitar Jesus: viva 
+  no amor, tomando Cristo como seu exemplo, que nos amou até 
+  o fim. 
+  <b> Efésios 5: 1 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng25')> 25 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng25> 
+  Envolve mais: cumprir os dois preceitos reproduzindo até onde nos é concedido, pobres criaturas, a vida santa de Nosso Senhor Jesus Cristo, imitando-o no interior e no interior. 
+  virtudes exteriores, levando uma vida totalmente engajada em buscar 
+  a Glória Divina. 
+  <b> Regra Integral, 18 </b> </p> 
+  <p class=bibbia> Você deve sempre pensar no que é melhor para você e para todos;  seja feliz em todos os momentos, ore constantemente e por todas as coisas dê graças a Deus. 
+  <b> 1 Tessalonicenses 5:16 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng26')> 26 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng26> 
+  <p> Quem não está queimando com zelo não pode incendiar os outros;  que tipo de fogo nós precisamos para 
+  treinar, educar, consolar e conversar com o vizinho no 
+  Obras de caridade?  Não tenha medo de ver o 
+  grandeza do objetivo proposto. 
+  <b> Regra Integral, 18 </b> </p> 
+  <p class=bibbia> Eu vim para trazer fogo à terra, e como eu desejo isto 
+  já estavam em chamas!  Há um batismo que devo receber ... 
+  <b> Lucas 12:49 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng27')> 27 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng27> 
+  <p> Eu me ofereci de todo coração e carinho ao 
+  Senhor para fazer a vontade dele em tudo.  Eu tive a impressão de 
+  estar aqui em trânsito, como estou no presente. 
+  <b> Memórias VII, 63 </b> </p> 
+  <p class=bibbia> Então eu disse: "Aqui estou, estou chegando! No pergaminho do 
+  livro está escrito que eu deveria obedecer a sua vontade.  Eu sempre amei sua lei. 
+  <b> Salmo 40: 8 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng28')> 28 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng28> 
+  <p> Durante a oração, pareceu-me que minha alma estava novamente 
+  atraído para a presença de Deus, não na forma do Sol, mas como 
+  Espírito.  Fiquei impressionado com a sua grandeza, bondade e outros 
+  atributos, mas especialmente o primeiro deles. 
+  <b> Memórias XI, 6-7 </b> </p> 
+  <p class=bibbia> Amo que nenhuma inundação pode apagar, nenhuma torrente se afoga.  O Flash 
+  é um lampejo de fogo, uma chama do próprio Deus. 
+  <b> Canção das Canções 8: 7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng29')> 29 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng29> 
+  <p> A intensidade dos meus sentimentos era tão grande, eu acho que eu era realmente sincero na época, que eu me ofereci ao Senhor para sofrer de qualquer maneira e por qualquer período de tempo. 
+  pode querer e até suportar sozinho as dores do inferno. 
+  <b> Memórias IX, 26 </b> </p> 
+  <p class=bibbia> Felizes aqueles que moram em sua casa e podem te louvar 
+  o dia inteiro;  e feliz os peregrinos inspirados por você com 
+  coragem para fazer as subidas! 
+  <b> Salmo 84: 6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m04eng30')> 30 de abril </a> </h3> 
+  <hr> 
+  <div class=bordo id=m04eng30> 
+  <p> A infinita misericórdia do Senhor sempre me ajudou 
+  mesmo quando eu realmente não tinha feito nada de bom.  Então eu 
+  permaneceu pronto para sofrer, mesmo a ponto de esperar 
+  sofrimento, mas com alegria e paz. 
+  <b> Memórias VII, 50-51 </b> </p> 
+  <p class=bibbia> Eu te amo Senhor, minha força, minha salvação, minha rocha, minha 
+  escudo, meu libertador, meu Deus e eu me refugio nele. 
+  <b> Salmo 18: 3 </b> </p> 
+  </div> 
+  </ons-modal> 
+  </div> 
+  <div class=item> 
+  <br> 
+  <a href=# onclick="showModal('pode');"> 
+  <ons-icon icon="calendar"></ons-icon><br> 
+  Pode 
+  </a> 
+  <ons-modal id=may> 
+  <p align = center> <a href=# onclick="closeModal('may')"> <b> Maio </b> 
+  <img src=img/close.png> 
+  </a> 
+  </p> 
+  <hr> 
+  <p> Maria, mãe da caridade, ajuda-nos a viver o maior amor! </p> 
+  <hr> 
+  <h3> <a href=# onclick=toggle('m05eng1')> 1 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng1> 
+  <p> Comecei a honrar a Santíssima Virgem sob o título de 
+  a "Virgem Dolorosa".  Na verdade, desde que eu era criança eu sempre 
+  tinha um grande amor e devoção a Nossa Senhora.  eu acredito 
+  a devoção a Maria, sob este título, foi inspirada pela minha 
+  segundo companheiro. 
+  <b> Memórias II, 12 </b> </p> 
+  <p class=bibbia> Seus olhos viram minhas ações;  no seu livro existem 
+  tudo escrito;  meus dias foram limitados antes de um deles esiste. 
+  <b> Salmo 139: 16 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng2')> 2 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng2> 
+  <p> Eu fui à igreja de São Francisco para rezar ao mais 
+  Virgem Santa e a situação ficaram muito claras e eu 
+  experiente conflito interno quando Deuses quis manifestar a Sua Vontade para mim. 
+  <b> Memórias II, 31 </b> </p> 
+  <p class=bibbia> Muitos devem olhar com admiração e confiança no Senhor.  Feliz 
+  o homem que faz do Senhor a sua confiança: quem não volta 
+  idolatria. 
+  <b> Salmo 40: 5 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng3')> 3 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng3> 
+  <p> Chega o dia em que a Obra será iniciada: sábado 
+  1 de agosto, o primeiro dos sete sábados dedicado a 
+  Nossa Senhora das Dores.  O Senhor começou a me fazer saborear 
+  pobreza, embora Ele sempre fornecesse o suficiente para 
+  as necessidades do Instituto. 
+  <b> Memórias III, 2 </b> </p> 
+  <p class=bibbia> Os teus caminhos, ó Senhor, faz-me saber: ensina-me o teu 
+  caminhos.  Guie-me à sua verdade e me ensine, porque você é 
+  Deus meu Salvador. 
+  <b> Salmo 25: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng4')> 4 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng4> 
+  <p> No dia em que a primeira missa foi celebrada no 
+  nova casa, ouvi dizer que este novo local tinha sido consagrado à Virgem Maria.  Eu estava extremamente feliz e eu 
+  começou a sentir uma grande alegria. 
+  <b> Memórias III, 33 </b> </p> 
+  <p class=bibbia> Que o Senhor se lembre de todas as suas ofertas e graciosamente 
+  aceite seu holocausto.  Que ele te conceda o que está em seu 
+  coração e cumprir todos os seus planos. 
+  <b> Salmo 20: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng5')> 5 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng5> 
+  <p> Eu visitei o Santuário de Caravaggio três vezes durante este 
+  período.  A primeira vez que experimentei um amor tão terno por 
+  Maria que, durante toda a minha oração, eu poderia dizer não 
+  mais do que: "Minha querida mãe!" 
+  <b> Memórias XV, 50-51 </b> </p> 
+  <p class=bibbia> Que todos os que se refugiam em ti se alegrem e exultem para sempre. 
+  Proteja-os para que você seja a alegria daqueles que amam 
+  Seu nome. 
+  <b> Salmo 5: 12-13 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng6')> 6 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng6> 
+  <p> Através da intercessão da dolorosa Virgem Maria, 
+  sem falar com a pessoa envolvida, recitei o 
+  Chalé das Dores de Maria.  Quando terminei meu 
+  companheiro permaneceu definitivamente. 
+  <b> Memórias IV, 31 </b> </p> 
+  <p class=bibbia> Tu, ó Senhor, és o meu escudo: a minha glória, tu ergue a minha cabeça! 
+  Quando eu clamo ao Senhor, Ele me responde do Seu santo 
+  montanha. 
+  <b> Salmo 3: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng7')> 7 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng7> 
+  <p> Senti-me interiormente sustentado entre as muitas dificuldades que me cercam.  Houve um tempo em que todos estes 
+  wotties pareciam tirar o melhor de mim, mas recorrer a 
+  Mary e felpe-me para recuperar a minha paz. 
+  <b> Memórias XIV, 54-55 </b> </p> 
+  <p class=bibbia> Deus é o nosso refúgio e a nossa força, uma ajuda sempre presente 
+  em perigo.  Portanto, nós não tememos, embora a terra seja 
+  agitado e as montanhas mergulham no mar. 
+  <b> Salmo 46: 2 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng8')> 8 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng8> 
+  <p> Eu entendi que os envolvidos se envolvem na prevenção 
+  pecados, já consolaram Jesus e Maria em seus sofrimentos.  Aceitei suportar qualquer tipo de sofrimento. 
+  <b> Memórias XV, 72 </b> </p> 
+  <p class=bibbia> Estou muito aflito, ó Senhor, dá-me a vida segundo 
+  a sua palavra.  Aceita, ó Senhor, a livre homenagem da minha boca e ensina-me os teus decretos. 
+  <b> Salmo 119: 107 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng9')> 9 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng9> 
+  <p> Eu senti que se eu realmente buscasse somente a Deus e o mais sagrado 
+  Virgem, da maneira que o Senhor queria, eu sempre podia contar 
+  em sua ajuda nesta vida e eles não me abandonariam 
+  na hora da morte. 
+  <b> Memórias V, 10 </b> </p> 
+  <p class=bibbia> O Senhor te livrará de todo mal, Ele guardará a sua vida.  o 
+  Senhor guardará sua vinda e sua partida agora 
+  e para sempre. 
+  <b> Salmo 121: 7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng10')> 10 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng10> 
+  <p> Deus me fez entender de que maneira eu deveria buscá-lo 
+  sozinho e a Santíssima Virgem, principalmente por sofrer de bom grado sem procurar conforto e aprovação em 
+  palavras ou em ações. 
+  <b> Memórias V, 11 </b> </p> 
+  <p class=bibbia> Senhor, só tu és a minha esperança.  Eu fiquei sem palavras e não abri minha boca porque estava fazendo você.  Leve embora 
+  seu flagelo de mim. 
+  <b> Salmo 39:10 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng11')> 11 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng11> 
+  <p> Eu tive um companheiro que estava doente.  Eu trouxe alguns 
+  flores que haviam sido colocadas diante de uma imagem milagrosa 
+  Nossa Senhora ... naquele lugar cheirei uma certa fragrância. 
+  <b> Memórias VI, 33 </b> </p> 
+  <p class=bibbia> Eu espero por você, Senhor;  tu, ó Senhor, meu Deus, responderá. 
+  Não me abandone, ó Senhor;  meu Deus, não fique longe de mim! 
+  <b> Salmo 38: 16.22 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng12')> 12 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng12> 
+  <p> Senti-me tranquilizado interiormente e instei a orar ao Santo 
+  Virgem Maria para apressar tal favor como ela tinha feito ar 
+  o casamento de Caná.  E eu recebi a graça. 
+  <b> Memórias VII, 17 </b> </p> 
+  <p class=bibbia> Deixe isso para o Senhor e espere por Ele.  Não fique irritado com o 
+  parte bem sucedida do homem que faz atos maliciosos. 
+  <b> Salmo 37: 7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng13')> 13 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng13> 
+  <p> Do impulso que senti em rezar, eu sabia que Deus já havia concedido meu desejo.  De fato, aconteceu 
+  alguns dias depois, enquanto eu perseverava orando a Maria 
+  através de uma novena ao seu Imaculado Coração. 
+  <b> Memórias VII, 18 </b> </p> 
+  <p class=bibbia> Eu meditarei em seus preceitos e considerarei seus caminhos. 
+  Em seus estatutos eu vou me deliciar, não vou esquecer suas palavras. 
+  <b> Salmo 119: 16 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng14')> 14 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng14> 
+  As negociações para o novo local foram finalmente concluídas.  Na vigília da festa de Maria 
+  Matriz Mãe Divina, o movimento aconteceu.  Nós escolhemos propositadamente um sábado para isso. 
+  <b> Memórias VII, 42 </b> </p> 
+  <p class=bibbia> Envie sua luz e sua fidelidade;  eles me conduzirão 
+  e me leva ao seu monte santo, à sua morada 
+  Lugar, colocar. 
+  <b> Salmo 43: 3 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng15')> 15 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng15> 
+  <p> O único momento de tranquilidade que eu gostei foi quando eu 
+  foi visitar o Santuário de Nossa Senhora em São Celso, mas 
+  não duraria muito.  O fato de que eu tive que morar entre 
+  a classe alta pode ter contribuído. 
+  <b> Memórias X, 20 </b> </p> 
+  <p class=bibbia> Eu clamo com todo o meu coração: responde-me, ó Senhor;  Eu observarei seus estatutos. 
+  Eu chamo você: salve-me e guardarei seus decretos. 
+  <b> Salmo 119: 145 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng16')> 16 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng16> 
+  <p> Eu tive a impressão de ter comprometido o trabalho 
+  e eu continuei recomendando todo o assunto para o nosso 
+  Senhora.  Depois de um ou dois dias, fiquei mais calmo.  Ao refletir sobre isso, posso ver agora que não havia motivo real 
+  estar chateado. 
+  <b> Memórias X, 33 </b> </p> 
+  <p class=bibbia> Eles clamaram ao Senhor em sua aflição: de sua angústia 
+  ele os resgatou.  Ele silenciou a tempestade para um suave 
+  brisa. 
+  <b> Salmo 107: 28 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng17')> 17 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng17> 
+  <p> Em uma ocasião, só porque uma necessidade muito séria para nós 
+  tinha surgido eu implorei a Nosso Senhor por uma graça especial 
+  de amor por Nossa Santíssima Mãe.  A graça veio logo depois. 
+  <b> Memórias X, 42 </b> </p> 
+  <p class=bibbia> Venha, vamos nos curvar na adoração;  vamos nos ajoelhar antes 
+  o Senhor que nos fez.  Pois Ele é o nosso Deus e nós somos o 
+  pessoas que ele pastoreia, o rebanho que ele guia. 
+  <b> Salmo 95: 6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng18')> 18 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng18> 
+  <p> Sentindo-se muito preocupado e com o peso de tudo, um 
+  pouco tempo depois que veio a graça: consciente da minha indignidade, duvidei e pedi perdão ao Senhor e 
+  prometi a ele não fazer mais isso, apesar de ainda estar assaltado por algumas dúvidas. 
+  <b> Memórias X, 43 </b> </p> 
+  <p class=bibbia> Eu sei que o Senhor faz justiça ao aflito, julgamento para os pobres. 
+  Certamente os justos darão graças ao seu nome. 
+  <b> Salmo 140: 13 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng19')> 19 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng19> 
+  <p> Onde quer que eu me virasse, não encontraria nada além de Deus.  eu sabia 
+  que só Ele era o objeto do meu amor e havia um 
+  alegria inefável em mim no pensamento do meu encontro com 
+  Ele e com a Santíssima Virgem. 
+  <b> Memórias XI, 29 </b> </p> 
+  <p class=bibbia> Abençoe ao Senhor seus servos que fazem a Sua vontade. 
+  Abençoe o Senhor todas as suas criaturas.  Abençoe o Senhor minha alma. 
+  <b> Salmo 103: 22 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng20')> 20 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng20> 
+  <p> Maria fez saber ao meu confessor que o Senhor estava descontente com meus cuidados, ansiedades e minha falta de confiança em 
+  Deus.  Aos poucos, minha paz voltou e implorei 
+  Perdão do Senhor. 
+  <b> Memórias XI, 36 </b> </p> 
+  <p class=bibbia> Olha, responde-me, ó Senhor, meu Deus!  Dê luz aos meus olhos.  Eu 
+  Confie em sua bondade, deixe meu coração se alegrar. 
+  <b> Salmo 13: 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng21')> 21 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng21> 
+  <p> Eu estava então claramente esclarecido sobre como ajudá-la a perceber 
+  sua chamada.  E pareceu-me que sua vocação era 
+  inspirado por Nossa Senhora.  Eu gostei de paz profunda. 
+  <b> Memórias XI, 43 </b> </p> 
+  <p class=bibbia> Ouça, meu povo, ao meu ensinamento;  incline seus ouvidos para 
+  minhas palavras.  Eu vou abrir minha boca em uma parábola, vou dizer 
+  mistérios de antigamente. 
+  <b> Salmo 78, 1 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng22')> 22 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng22> 
+  <p> Um dia, um dos meus companheiros ficou gravemente doente.  Julgar 
+  ela estar em perigo de morte eu tinha recurso para Nossa Senhora de 
+  Tristezas.  Enquanto eu rezava, fiquei sabendo que ela não 
+  morrer.  Foi um grande consolo ouvir uma voz interior. 
+  <b> Memórias XI, 66 </b> </p> 
+  <p class=bibbia> Ouça o som da minha súplica, quando eu choro para você, 
+  levantando minhas mãos para o seu santuário sagrado. 
+  <b> Salmo 28: 2 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng23')> 23 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng23> 
+  <p> Embora se sinta em paz e sabendo que Deus e Sua 
+  Mãe Santíssima conseguiria tudo, eu rezei por 
+  o Instituto e eu vim a saber o nome da pessoa 
+  quem faria tudo. 
+  <b> Memórias XII, 11 </b> </p> 
+  <p class=bibbia> O plano do Senhor permanece para sempre: o desígnio de Sua 
+  coração através de todas as gerações.  Feliz a nação cuja 
+  Deus é o Senhor. 
+  <b> Salmo 33:11 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng24')> 24 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng24> 
+  Quando eu fui perturbado por tentações, fui inspirado a orar de maneira especial à Santíssima Virgem Maria, 
+  e acredito que fui libertado dessa provação por meio de 
+  sua intercessão. 
+  <b> Memórias XII, 25 </b> </p> 
+  <p class=bibbia> Você vê, pois você vê miséria e tristeza, tomando 
+  eles em suas mãos.  Em você o homem infeliz depende;  dos órfãos de pai, você é o ajudante. 
+  <b> Salmo 10:14 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng25')> 25 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng25> 
+  <p> Incentivada a fazer o voto, eu queria esperar por um dia 
+  dedicado à Santíssima Virgem Maria porque eu desejei 
+  confiar em suas mãos.  Eu experimentei a presença de Deus. 
+  <b> Memórias XII, 29 </b> </p> 
+  <p class=bibbia> Como devo fazer um retorno ao Senhor por tudo de bom 
+  Ele fez por mim?  A taça da salvação eu vou pegar, 
+  e vou invocar o nome do Senhor. 
+  <b> Salmo 116: 12 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng26')> 26 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng26> 
+  <p> Esquecendo que era sábado, eu decidi esperar por um dia 
+  dedicado a Nossa Senhora.  Mas eu lembrei que implorei 
+  Senhor para me enviar qualquer sofrimento, tristezas, privações e 
+  cruzes, desde que Ele nunca permitiria que eu pecasse mais. 
+  <b> Memórias XII, 41 </b> </p> 
+  <p class=bibbia> Cantem com alegria a Deus nossa força;  pegue uma melodia, e 
+  soem o timbre, a harpa agradável e a lira. 
+  <b> Salmo 81: 3 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng27')> 27 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng27> 
+  Depois de terminar a Novena saí do coro e fui diante da foto de Nossa Senhora onde me ajoelhei.  Então isso primeiro 
+  a tempestade diminuiu, mas eu me encontrei muito angustiado. 
+  <b> Memórias XIII, 25 </b> </p> 
+  <p class=bibbia> Ó Senhor, meu coração não é orgulhoso.  Minha alma está quieta e quieta. 
+  Como uma criança nos braços de sua mãe, então meu coração está quieto 
+  dentro de mim. 
+  <b> Salmo 131: 1 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng28')> 28 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng28> 
+  <p> Eu estava muito cansado e sentei no banco do Santuário 
+  da Santa Virgem Maria e depois de ter orado ao nosso 
+  Senhora de muitas intenções, eu também recomendei os Filhos 
+  de caridade para ela. 
+  <b> Memórias XIII, 35 </b> </p> 
+  <p class=bibbia> Das profundezas clamo a ti, ó Senhor;  Senhor ouça meu 
+  voz!  Deixe seus ouvidos atentos à minha voz em súplica. 
+  <b> Salmo 130: 1 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng29')> 29 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng29> 
+  <p> Nessas ocasiões eu implorei ao Senhor e o mais 
+  Santa Virgem Maria em espírito de fé, abordando-os como 
+  embora eles não estivessem presentes dentro de mim, mas no céu, 
+  e eles se dignaram a conceder o meu pedido. 
+  <b> Memórias XIV, 38 </b> </p> 
+  <p class=bibbia> O Senhor ouviu minha oração.  Bendito seja Deus que não me recusou a minha oração ou a sua bondade! 
+  <b> Salmo 66:20 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m05eng30')> 30 de maio </a> </h3> 
+  <hr> 
+  <div class=bordo id=m05eng30> 
+  <p> Senti em mim um terno sentimento de afeição por Mary e 
+  um grande desejo de vê-la.  Eu me joguei nos braços de Mary 
+  implorando a ela para obter para mim a vida ou a morte como ela 
+  satisfeito. 
+  <b> Memórias XV, 66 </b> </p> 
+  <p class=bibbia> Eu cantarei ao Senhor toda a minha vida: cantarei louvores ao meu 
+ God while I live. May my song be pleasing to you, Lord. 
+ <b>Psalm 104:33</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm05eng31')>31 May</a></h3> 
+  <hr> 
+ <div class=bordo id=m05eng31> 
+ <p> I kept imploring Our Lady's help. I finally resolved, yet 
+ again, to really serve God and seek Him alone. I placed 
+ myself in the heart of Mary. 
+ <b>Memoirs XIV, 51</b></p> 
+ <p class=bibbia> Then our mouth was filled with laughter, and our tongue 
+ with rejoicing. Then they said among the nations: "The 
+ Lord has done great things for us." 
+ <b>Psalm 126:2</b> </p> 
+  </div> 
+ </ons-modal> 
+  </div> 
+ <div class=item> 
+  <br> 
+ <a href=# onclick=showModal( ' june ' );> 
+ <ons-icon icon = calendar></ons-icon><br> 
+  Junho 
+  </a> 
+ <ons-modal id=june> 
+ <p align = center> <a href=# onclick=closeModal( ' june ' )><b>June</b> 
+ <img src=img/close.png> 
+  </a> 
+  </p> 
+  <hr> 
+ <p>Jesus, the Greatest Love, Make us Docile Instruments For Your Kingdom!</p> 
+  <hr> 
+ <h3><a href=# onclick=toggle( 'm06eng1')>1 June</a></h3> 
+  <hr> 
+ <div class=bordo id=m06eng1> 
+ <p>I found myself united to God so intensely, with a feeling 
+ of love so strong that I was almost unaware of what was 
+ happening around me. 
+ <b>Memoirs II, 40</b> </p> 
+ <p class=bibbia> We have known and put our faith in God's love towards 
+  nós mesmos. God is love and anyone who lives in love lives 
+ in God and God lives in him. 
+ <b>1 John 4:16</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm06eng2')>2 June</a></h3> 
+  <hr> 
+ <div class=bordo id=m06eng2> 
+ <p> Once again, and perhaps more than ever, I began to feel 
+ myself closely united with God: that feeling of love continued to grow in me, although in my opinion, it was not 
+ possible to increase any further. 
+ <b>Memoirs III, 7</b></p> 
+ <p class=bibbia> Love the Lord, all you devout: the Lord protects the faithful. 
+ Be strong, let your heart be bold, all you who hope in the Lord. 
+ <b>Psalm 31: 24</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm06eng3')>3 June</a></h3> 
+  <hr> 
+ <div class=bordo id=m06eng3> 
+ <p>I felt in a special way, on the one hand, the power of the 
+ Lord drawing my soul to unite itself with Him and on the 
+ other, His amiability and the force of His love against the 
+ inability of my spirit imprisoned in the body. 
+ <b>Memoirs III, 22</b> </p> 
+ <p class=bibbia> God's love for us was revealed when God sent into the 
+ world His only Son so that we could have life through 
+  Ele. 
+ <b>1 John 4: 9 </b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm06eng4')>4 June</a></h3> 
+  <hr> 
+ <div class=bordo id=m06eng4> 
+ <p>A great desire came upon me for Heaven where that 
+ union, which is not possible to realise on earth, would be 
+ perfected. It seemed as though my very soul was attempting every way to leave the prison of the body. 
+ <b>Memoirs III, 23</b> </p> 
+ <p class=bibbia> This is the love I mean: not our love for God, but God's 
+ love for us when He sent His Son for our salvation. 
+ <b>1 John 4: 10</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm06eng5')>5 June</a></h3> 
+  <hr> 
+ <div class=bordo id=m06eng5> 
+ <p>At another time, while I was again at prayer before the 
+ Blessed Sacrament, I experienced one of those usual feelings, I had the vision of the splendour of Heaven;  Deus 
+ Himself and our condition as pilgrims were being shown 
+  para mim. 
+ <b>Memoirs III, 26</b> </p> 
+ <p class=bibbia> We are to love, then, because He loved us first.  Alguém 
+ who loves God must also love his brother. 
+ <b>1 John 4: 19,21</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm06eng6')>6 June</a></h3> 
+  <hr> 
+ <div class=bordo id=m06eng6> 
+ <p> During prayer, I was overcome by a surge of love towards 
+ God, so strong that the soul, being imprisoned in the body, was prevented from uniting itself with Him and would 
+ have tried to release itself. 
+ <b>Memoirs III, 40</b></p> 
+ <p class=bibbia> My beloved went down to his garden, to the beds of spi- 
+ ces. I am my Bleloved's, and my Beloved is mine. He pastures his flock among the lilies. 
+ <b>Song od Songs 6: 2</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm06eng7')>7 June</a></h3> 
+  <hr> 
+ <div class=bordo id=m06eng7> 
+ <p>I was overcome by a surge of love towards God ... within 
+ me it seemed as if the soul was trying to flee from the 
+ body like a little bird, to explain it better, as though attempting to flee from the cage. 
+ <b>Memoirs III, 43</b> </p> 
+ <p class=bibbia> O Lord, I mean to thank you among the peoples, your love is high as heaven, your faithfulness as the clouds. 
+ <b>Psalm 108: 4-5 </b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm06eng8')>8 June</a></h3> 
+  <hr> 
+ <div class=bordo id=m06eng8> 
+ <p>This view of Christ's love for men not only grieved me, 
+ for I saw that He is not loved, but it also gave me a great 
+ longing to make Him known and loved; so much so that 
+ nothing else mattered. 
+ <b>Memoirs III, 49</b> </p> 
+ <p class=bibbia> This is what loving God is: keeping His commandments; 
+ and His commandments are not difficult. 
+ <b>1 John 5: 3</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm06eng9')>9 June</a></h3> 
+  <hr> 
+ <div class=bordo id=m06eng9> 
+ <p> Nothing else mattered, not even my country nor my rela- 
+  tives.  Eu gostaria de poder ser reduzido a pó se, desse modo, eu 
+  poderia ser espalhado para todas as partes do mundo para que Deus 
+  seria conhecido e amado. 
+  <b> Memórias III, 50 </b> </p> 
+  <p class=bibbia> Meu querido povo, vamos nos amar uns aos outros desde que o amor 
+  vem de Deus e todo aquele que ama é gerado por 
+  Deus e conhece a Deus. 
+  <b> 1 João 4: 7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng10')> 10 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng10> 
+  <p> Enquanto assiste na Santa Missa, no momento da Santa 
+  Comunhão, assim que eu recebi a hóstia sagrada, eu 
+  encontrei-me carregado de fortes sentimentos de amor para com Deus e foi movido para me unir espiritualmente para 
+  Ele. 
+  <b> Memórias IV, 11 </b> </p> 
+  <p class=bibbia> Se alguém reconhece que Jesus é o Filho de Deus, 
+  Deus vive nele e ele em Deus. 
+  <b> 1 João 4: 15 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng11')> 11 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng11> 
+  <p> No entanto, os efeitos da calma permaneceram, a lembrança, o desejo de buscar somente a Deus e assegurar que Ele 
+  seja amado e seja servido por todos. 
+  <b> Memórias IV, 15 </b> </p> 
+  <p class=bibbia> Como uma corça anseia por correr correntes, então minha alma anseia por 
+  você meu Deus.  Minha alma tem sede de Deus, o Deus da vida. 
+  <b> Salmo 42: 2-3 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng12')> 12 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng12> 
+  <p> Nos breves momentos em que me encontrei unido com 
+  o Senhor, fui fortalecido na minha resolução de sofrer.  isto 
+  pareceu-me então que Deus queria que eu praticasse 
+  fé, sozinho com Deus sozinho, que eu já desejei grandemente. 
+  <b> Memórias VI, 11 </b> </p> 
+  <p class=bibbia> Mas eu, tão grande é o seu amor, pode vir a sua casa, e 
+  antes que o seu Templo Sagrado se curve em reverência a você. 
+  <b> Salmo 5: 8 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng13')> 13 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng13> 
+  <p> Uma vez, sentindo-me fortemente unido a Deus em oração, eu 
+  senti um desejo irresistível de me lançar no Coração de Jesus e é isso que eu realmente fiz.  Parecia que eu 
+  tinha sido imerso mais profundamente em Deus do que eu tinha 
+  já experimentou no passado. 
+  <b> Memórias VI, 16 </b> </p> 
+  <p class=bibbia> Israel, eu vou casar com você para mim mesmo para sempre, prometo a você 
+  com integridade e justiça, com ternura e amor;  eu vou 
+  prometa-me a mim mesmo com fidelidade. 
+  <b> Oséias 2: 21 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng14')> 14 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng14> 
+  <p> Essas experiências me deixaram um desejo muito especial de 
+  ofensiva ao Senhor, eu também senti uma profunda tristeza por qualquer 
+  culpa que eu poderia ter cometido.  Houve um medo 
+  instigado pelo amor, de ofendê-lo novamente, mas senti um ardente desejo pelo céu. 
+  <b> Memórias VI, 55 </b> </p> 
+  <p class=bibbia> Ó Deus, eu estou procurando você, minha alma está sedenta por você, meu 
+  carne está ansiando por você, uma terra árida, cansada e sem água. 
+  <b> Salmo 63: 2 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng15')> 15 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng15> 
+  Mesmo depois de desagradar ao Senhor com ninharias, como sempre faço, estou cheio de uma grande ternura de afeto, 
+ consciente do fato de que só ele é o único objeto de 
+  meu amor e assim estou preparado para qualquer coisa ... como qualquer 
+  tipo de sacrifício é nada para mim. 
+  <b> Memórias VII, 31 </b> </p> 
+  <p class=bibbia> Ó Deus, seu amor é melhor que a própria vida, meus lábios recitarão seu louvor; 
+  toda a minha vida eu te abençoarei, nos meus lábios uma canção de alegria. 
+  <b> Salmo 63: 4-6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng16')> 16 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng16> 
+  <p> O que eu queria era apenas sofrer, mesmo que eu ainda 
+  tem medo disso.  Eu acredito que quando eu desejo, pode 
+  não ser para o serviço de Deus apenas, mas mais para o desejo de 
+  o prazer que vem de me encontrar unida a ele. 
+  <b> Memórias VII, 54 </b> </p> 
+  <p class=bibbia> Ó Deus, venha me resgatar.  Para mim, pobre coitado, venha 
+  rapidamente, Deus!  Meu ajudante, meu salvador, ó Senhor, venha sem demora! 
+  <b> Salmo 70: 6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng17')> 17 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng17> 
+  <p> Eu também experimentei uma paz celestial e um desejo tão profundo de estar em Paradice, que eu até desejei ser atingido 
+  iluminando, a fim de morrer ... cada cruz parecia ser 
+  não mais significativo que um canudo. 
+  <b> Memórias VI, 17 </b> </p> 
+  <p class=bibbia> Ó Senhor, meu escudo circundante, minha glória, você me ajuda a segurar 
+  minha cabeça.  Em voz alta, clamo ao Senhor e Ele me responde 
+  do seu santo monte. 
+  <b> Salmo 3: 3-4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng18')> 18 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng18> 
+  Ao retornar a Verona, me aguardavam muitas cruzes 
+  relacionados aos meus deveres.  Um dia, enquanto rezava, experimentei um dos meus habituais transportes de amor.  Foi de 
+  aqui que eu tirei a força para superar todas as dificuldades. 
+  <b> Memórias VIII, 10 </b> </p> 
+  <p class=bibbia> Felizes os peregrinos inspirados por você, ó Senhor, Deus de todos 
+  criação, com coragem para fazer o seu caminho de altura para 
+  altura em direção a Sião. 
+  <b> Salmo 84: 7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng19')> 19 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng19> 
+  <p> Eu vim a entender a caridade primorosa do Coração de 
+  o Senhor e afligido depois de tantas provas de amor, no 
+  impulso do momento eu respondi: "Se então eu sou tão ingrato, 
+  o que é verdade, serei salvo! 
+  <b> Memórias VIII, 17 </b> </p> 
+  <p class=bibbia> Eu te agradeço de todo meu coração, Senhor meu Deus, eu glorifico o seu 
+  Nome para sempre, seu amor por mim tem sido tão grande, Você me resgatou das profundezas do Sheol. 
+  <b> Salmo 86: 12-13 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng20')> 20 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng20> 
+  <p> Parece-me que amo o Senhor com grande ternura. 
+  Apesar do fato de que eu o amo com todo meu coração, quando 
+  vem à realidade, minhas ações são inconsistentes, nem 
+  pratico a humildade nem sou forte no sofrimento? 
+  <b> Memórias VIII, 25 </b> </p> 
+  <p class=bibbia> Senhor Deus, você que é sempre misericordioso e sempre terno 
+  de coração, lento para raiva, sempre amoroso, sempre leal.  Dar 
+  me sua força. 
+  <b> Salmo 86: 15 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng21')> 21 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng21> 
+  <p> Existe apenas uma coisa que eu percebo, tanto para o meu interior 
+  e vida exterior.  Parece-me que cheguei ao ponto 
+  onde Deus tantas vezes indicou que quer 
+  eu: sozinho, só com ele. 
+  <b> Memórias IX, 34 </b> </p> 
+  <p class=bibbia> Eu vou celebrar o seu amor para sempre, ó Senhor, era após a minha idade 
+  palavras proclamarão sua fidelidade;  porque eu reivindico que o amor 
+  é construído para durar para sempre. 
+  <b> Salmos 89: 1-2 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng22')> 22 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng22> 
+  <p> Deus se apresentou a mim não na mente, mas no 
+  como costuma acontecer na oração, isto é, como no céu. 
+  Onde quer que eu me virasse, onde quer que eu olhasse, não encontraria nada além de Deus. 
+  <b> Memórias XI, 27-28 </b> </p> 
+  <p class=bibbia> Eu sempre agradeço pelo seu nome, ó Senhor, pelo seu amor 
+  e fidelidade;  sua promessa é ainda maior que sua 
+  fama. 
+  <b> Salmo 138: 2 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng23')> 23 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng23> 
+  <p> É óbvio para mim que eu sou novamente chamado a buscar DEUS 
+  SOZINHO, apesar da minha ingratidão e infidelidade.  eu me tornei 
+  muito angustiado com alguns assuntos.  Humanamente falando, 
+  havia alguns motivos justificados para isso. 
+  <b> Memórias XI, 31 </b> </p> 
+  <p class=bibbia> Minha música é sobre gentileza e justiça;  Ó Senhor, eu canto para 
+  Você.  Eu quero fazer um bom progresso, como os inocentes fazem: 
+  quando você virá para mim? 
+  <b> Salmo 101: 1-2 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng24')> 24 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng24> 
+  <p> Eu tinha me entregado a Deus e parecia que meu coração 
+  não era meu para descartar.  Foi talvez naquela manhã 
+  durante a oração, esse pensamento veio a mim.  Já que eu não posso mais amá-lo, eu amaria Jesus com 
+  o coração de Jesus. 
+  <b> Memórias XIII, 10 </b> </p> 
+  <p class=bibbia> Eu sou meu amado, e seu desejo é para mim ... o mais raro 
+  frutas eu guardei para você, meu amado. 
+  <b> Canção das Canções 7: 14 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng25')> 25 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng25> 
+  <p> Meu amor aumentou e ganhou força como eu 
+  solicitado a chamá-lo de "meu querido esposo".  Outra vez, em 
+  oração, eu pensei que ouvi ele me chamar de "meu querido esposo" 
+  mas eu poderia ter imaginado isso. 
+  <b> Memórias XIII, 12 </b> </p> 
+  <p class=bibbia> Eu vou casar com você para mim mesmo com fidelidade, e você vai 
+  venha conhecer o Senhor.  Quando esse dia chegar, o Senhor 
+  abençoará o seu povo. 
+  <b> Oséias 2: 22 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng26')> 26 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng26> 
+  <p> Eu fui consolado por pensamentos alternados do céu e 
+  a brevidade da vida e que alegria para mim era à noite para perceber que outro dia tinha ido, enquanto eu 
+  tinha vivido bem! 
+  <b> Memórias VI, 12 </b> </p> 
+  <p class=bibbia> Eu exulto de alegria no Senhor, minha alma se alegra em meu Deus, pois 
+  Ele me vestiu com as vestes da salvação, Ele tem 
+  me envolveu no manto da integridade. 
+  <b> Isaías 61: 10 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng27')> 27 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng27> 
+  <p> Eu não me lembro se era da maneira usual ou 
+  por causa de uma meditação, embora eu acredite que foi o primeiro, fui iluminado no amor infinito de Jesus no 
+  instituição do Santíssimo Sacramento. 
+  <b> Memórias XV, 62 </b> </p> 
+  <p class=bibbia> Preparas uma mesa perante mim sob os olhos dos meus inimigos e unges a minha cabeça com óleo.  Bondade e 
+  bondade me perseguir todos os dias da minha vida. 
+  <b> Salmo 23: 5-6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng28')> 28 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng28> 
+  <p> Eu senti um sentimento infundido por Deus e por causa disso, 
+  despertou em mim o sentimento habitual de amor.  Com muita sinceridade, carinho e prontidão de coração, aceitei 
+  suportar qualquer tipo de sofrimento, na verdade, eu quase desejei isso. 
+  <b> Memórias XV, 73 </b> </p> 
+  <p class=bibbia> É o Senhor Deus de Israel quem fala: "Eu vou 
+  para atraí-la e levá-la para o deserto e 
+  fale com seu coração ". 
+  <b> Oséias 2: 16 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng29')> 29 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng29> 
+  <p> Sempre que leio algo sobre o amor de Deus, sinto 
+  grande ternura no meu coração.  Um dia, depois da comunhão, 
+  Eu estava tão intimamente unido a Deus que eu pensava que nada 
+  poderia me separar dele. 
+  <b> Memórias X, 51 </b> </p> 
+  <p class=bibbia> Quem nos separará do amor de Cristo?  Talvez ensaios, 
+  preocupações, perseguição ... provas pelas quais triunfamos, 
+  pelo poder daquele que nos amou. 
+  <b> Romanos 8: 35 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m06eng30')> 30 de junho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m06eng30> 
+  <p> Ele me fez entender que Ele queria ser para mim o 
+  Absolute One e que eu não deveria confiar em mais ninguém 
+  mas para buscá-lo sozinho, amando e não querendo outro, mas 
+  Ele. 
+  <b> Memórias IX, 10 </b> </p> 
+  <p class=bibbia> "Eu ouço meu Amado, veja como Ele vem! Venha então, meu 
+  amor, meu amável, venha. "" Eu busquei Aquele a quem meu 
+  coração ama. 
+  <b> Canção das Canções 2: 8-3, 1 </b> </p> 
+  </div> 
+  </ons-modal> 
+  </div> 
+  <div class=item> 
+  <br> 
+  <a href=# onclick="showModal('julho');"> 
+  <ons-icon icon="calendar"></ons-icon><br> 
+  Julho 
+  </a> 
+  <ons-modal id=julho> 
+  <p align = center> <a href=# onclick="closeModal('julho')"> <b> Julho </b> 
+  <img src=img/close.png> 
+  </a> 
+  </p> 
+  <hr> 
+  <p> Jesus, pela Tua Paixão, Cruz e Ressurreição, Salve-nos! </p> 
+  <hr> 
+  <h3> <a href=# onclick=toggle('m07eng1')> 1º de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng1> 
+  <p> Na minha imaginação, vi Nosso Senhor carregando a cruz 
+  Seus ombros.  Ele foi coroado de espinhos e eu observei em particular o que parecia ser um jorro de sangue abaixo do queixo dele, no nível do pescoço dele. 
+  <b> Memórias XIII, 49 </b> </p> 
+  <p class=bibbia> Beba todos vocês disto, pois este é o meu sangue, o sangue 
+  da Nova Aliança, que deve ser derramado por muitos 
+  para o perdão do pecado. 
+  <b> Mateus 26:28 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng2')> 2 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng2> 
+  <p> Orientando os Exercícios Espirituais, senti a necessidade de sugerir um 
+  meditação sobre Jesus carregando a cruz para o Calvário.  Enquanto eu 
+  estava ajudando-os a refletir sobre a generosidade de Jesus ... 
+  de repente minha imaginação foi iluminada ... 
+  <b> Memórias XIII, 41-42 </b> </p> 
+  <p class=bibbia> Cristo entrou no santuário de uma vez por todas, levando consigo 
+  Não o sangue de bodes, mas o seu próprio sangue, tendo 
+  ganhou uma redenção eterna para nós. 
+  <b> Hebreus 9:12 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng3')> 3 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng3> 
+  <p> Fiquei profundamente impressionado com o imenso sofrimento de 
+  nosso Redentor e pelo peso da cruz Ele era 
+  carregando.  Essa visão me encorajou e imaginei que 
+  encontraria grandes sofrimentos ali. 
+  <b> Memórias XIII, 52-55 </b> </p> 
+  <p class=bibbia> Na Eucaristia, Jesus não nos dá uma "coisa", mas a si mesmo; 
+  Ele oferece seu corpo e derrama seu sangue.  Ele assim 
+  nos dá a totalidade de sua vida e revela o máximo 
+  origem deste amor. 
+  <b> Sacramentum Caritatis 7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng4')> 4 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng4> 
+  <p> Eu vi a extensão da minha ingratidão em relação ao Divino 
+  Misericórdia.  O Divino Redentor foi representado para mim 
+  sem a cruz ou coroa de espinhos, mas lacerada com 
+  feridas e salpicadas de sangue. 
+  <b> Memórias XIII, 66 </b> </p> 
+  <p class=bibbia> Jesus Cristo veio por água e sangue, não com água 
+  apenas, mas com água e sangue. 
+  <b> 1 João 5: 6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng5')> 5 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng5> 
+  <p> Eu vi uma imagem de Jesus no lagar ... Desta vez, também 
+  parecia que Ele se jogou em meus braços e que 
+  Seu sangue ficou preso na minha pessoa. 
+  <b> Memórias XIII, 68-69 </b> </p> 
+  <p class=bibbia> Participando da liturgia e recebendo o Corpo e 
+  O sangue de Cristo intensifica e aprofunda nossa pertença a 
+  Aquele que morreu por nós. 
+  <b> Sacramentum Caritatis 76 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng6')> 6 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng6> 
+  <p> Era fruto da imaginação ver o Divino Redentor no lagar.  A única diferença foi que 
+  as feridas em volta do pescoço eram muito frescas, muito dolorosas 
+  e sangramento. 
+  <b> Memórias XIV, 11-12 </b> </p> 
+  <p class=bibbia> Pois minha carne é comida de verdade e meu sangue é bebida real.  Ele 
+  que sempre come minha carne e bebe meu sangue vive em mim 
+  e eu moro nele. 
+  <b> João 6: 55-56 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng7')> 7 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng7> 
+  <p> Que preço, tão amoroso, Jesus poderia pagar pelo resgate de 
+  a humanidade por seu mais precioso sangue, derramado com 
+  um coração tão generoso e amor tão forte e tenaz. 
+  <b> Riflessi Spirituali n.  4 </b> </p> 
+  <p class=bibbia> Lembre-se do resgate que foi pago para libertar você 
+  o modo de vida inútil herdado de seus pais, com 
+  o precioso sangue de Cristo, o Cordeiro sem mancha. 
+  <b> 1 Pedro 1: 18-19 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng8')> 8 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng8> 
+  <p> Doce Jesus ... vestido em nossa natureza humana, tendo aparecido na terra, você queria ser como todos nós, um pecador, 
+  e derramar o seu mais precioso sangue na sua circuncisão. 
+  <b> Letras II / 1, 77 </b> </p> 
+  <p class=bibbia> Quando o oitavo dia chegou e a criança deveria ser circuncidada, deram-lhe o nome de Jesus, o nome 
+  anjo havia lhe dado. 
+  <b> Lucas 2:21 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng9')> 9 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng9> 
+  <p> Ó Jesus, à vista dos pecados e maldade de toda a humanidade e da condenação eterna de muitas almas, 
+  através de um excesso de amor, você derramou seu mais precioso 
+  e Sangue Sagrado no Jardim do Getsêmani. 
+  <b> Letras II, 177-178 </b> </p> 
+  <p class=bibbia> Em sua angústia ele orou com ainda mais fervor, e sua 
+  o suor caiu no chão como grandes gotas de sangue. 
+  <b> Lucas 22:44 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng10')> 10 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng10> 
+  <p> Ó meu Jesus mais inocente ... para compensar nossos inúmeros pecados durante a sua dolorosa flagelação, 
+  você derramar abundantemente o seu mais precioso sangue. 
+  <b> Letras II, 178 </b> </p> 
+  <p class=bibbia> Então Pilatos libertou Barrabás e ordenou que Jesus primeiro 
+  ser açoitado e entregue a ele para ser crucificado. 
+  <b> Mateus 27:26 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng11')> 11 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng11> 
+  <p> Meu mais humilde Jesus, no seu escárnio e mais doloroso 
+  Coroação de espinhos, você derramou abundantemente o seu Mais Precioso Sangue e destruiu o orgulho no coração humano, o 
+  raiz de todo pecado. 
+  <b> Cartas II 178 </b> </p> 
+  <p class=bibbia> Então eles o despiram e o fizeram usar um escarlate 
+  manto e, tendo torcido alguns espinhos em uma coroa, eles 
+  Coloque isso em sua cabeça. 
+  <b> Mateus 27: 28-29 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng12')> 12 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng12> 
+  <p> Meu amado Jesus, injustamente condenado à morte e sobrecarregado com a madeira pesada da cruz, você derramou seu 
+  Sangue Precioso ao longo das estradas de Jerusalém e 
+  Calvário, todas as pessoas podem ser convertidas e salvas. 
+  <b> Regras e escritos espirituais II, 179 </b> </p> 
+  <p class=bibbia> Eles tomaram conta de Jesus e carregando sua própria cruz ele 
+  saiu da cidade para o lugar da Caveira, ou como era 
+  chamado em hebraico, Gólgota. 
+  <b> João 19: 17-18 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng13')> 13 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng13> 
+  <p> Meu Santíssimo Redentor, uma vez no Calvário, despojado 
+  suas roupas, cruelmente pregadas e levantadas na cruz, 
+  você derrama abundantemente o seu sangue do seu mais sagrado 
+  Feridas 
+  <b> Regras e escritos espirituais II, 179 </b> </p> 
+  <p class=bibbia> Eles o crucificaram e dividiram suas roupas, lançando 
+  Muitos decidem o que cada um deve ter. 
+  <b> Marcar 15:24 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng14')> 14 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng14> 
+  <p> Nosso Mais Misericordioso Salvador ... depois de ter derramado o seu Mais 
+  Sangue Precioso, para nós pecadores, você desejou depois da morte 
+  derrame até as últimas gotas do seu Lado Mais Sagrado. 
+  <b> Regras e escritos espirituais II, 180 </b> </p> 
+  <p class=bibbia> Então, ao invés de quebrar as pernas, um dos soldados trespassou 
+  seu lado com uma lança e imediatamente saiu 
+  sangue e água. 
+  <b> João 19:34 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng15')> 15 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng15> 
+  <p> Para a Congregação dos Filhos da Caridade, desejo que 
+  pode nascer no Calvário entre Jesus Crucificado e 
+  Nossa Mãe Dolorosa e crescer com o Sangue Divino 
+  e as lágrimas de Maria.  Queime e seja inflamado por 
+  caridade. 
+  <b> Letras II / 2, 801 </b> </p> 
+  <p class=bibbia> Enquanto o Sangue de Cristo revela a grandeza do Fa 
+  Seu amor mostra como uma pessoa é preciosa nos olhos 
+  de Deus. 
+  <b> Evangelium Vitae, 25 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng16')> 16 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng16> 
+  <p> Como os Tertiários pertencem a um Instituto totalmente dedicado à caridade, parece inútil recomendar caridade 
+  porque são filhas dessa virtude e professam 
+  através de uma devoção ao Precioso Sangue daquele Deus 
+  quem é a própria caridade. 
+  <b> Regras e escritos espirituais II, 33 </b> </p> 
+  <p class=bibbia> Contemplar a Cristo significa reconhecê-lo em qualquer lugar 
+  Ele se manifesta, mas acima de tudo, no Sacramento vivo de Seu Corpo e Sangue. 
+  <b> Ecclesia de Eucaristia, 6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng17')> 17 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng17> 
+  <p> Diga a ela, em meu nome, o verdadeiro convento das Filhas 
+  de caridade é o lado de Jesus Cristo.  Continue a rezar para 
+  o Senhor pela força, pois há pouca esperança. 
+  <b> Letras III / 4, 2555 </b> </p> 
+  <p class=bibbia> Jesus disse a Thomas: "Coloque seu dedo aqui; veja aqui 
+  são minhas mãos.  Me dê sua mão;  coloque no meu lado ". 
+  <b> João 20:27 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng18')> 18 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng18> 
+  <p> Enquanto eu estava orando diante do Santíssimo Sacramento, vi 
+  Jesus crucificado coberto de feridas e sangue.  Quando eu 
+  foi confrontado com a verdadeira cruz, enviada a mim pelo Senhor, eu 
+  entendeu muito bem o significado dessa visão. 
+  <b> Memórias VIII, 4-5 </b> </p> 
+  <p class=bibbia> Eu fui crucificado com Cristo e não vivo mais, mas 
+  Cristo vive em mim ... Aquele que me amou se sacrificou 
+  pelo meu bem. 
+  <b> Gálatas 2:20 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng19')> 19 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng19> 
+  <p> Eu estava na igreja antes do Santíssimo Sacramento exposto, eu 
+  foi novamente preenchido com amor.  Todo sofrimento parecia desaparecer 
+  e me ocorreu que quando o serviço de Deus está em jogo, 
+  nada deve se tornar uma dificuldade. 
+  <b> Memórias XI, 54 </b> </p> 
+  <p class=bibbia> O homem vale tanto a Deus que Ele mesmo se tornou 
+  homem para sofrer com o homem de uma maneira totalmente real, 
+  carne e sangue, como revelado na paixão de Jesus. 
+  <b> Spes salvi, 39 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng20')> 20 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng20> 
+  <p> Toda vez que eu estava com dor e sofrimento, parecia ouvir 
+  aquelas palavras: "Eu também ...".  Com este estímulo interior, 
+  pareceu-me que tudo era de escasso ou nenhum valor 
+  e desejei permanecer forte em meu sofrimento e trabalho. 
+  <b> Memórias XIII, 44-45 </b> </p> 
+  <p class=bibbia> Quando nos comunicamos com o Corpo e Sangue de Jesus 
+  Cristo, nós participamos da Vida Divina em uma eternidade 
+  maneira adulta e consciente. 
+  <b> Sacramentum Caritatis, 70 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng21')> 21 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng21> 
+  <p> Eu rezei para que os Tertiários pudessem suportar, com 
+  amor, amargura, insultos, desprezo, esquecimento, 
+  erros e qualquer outra coisa que o Senhor se digna a enviar 
+  eles. 
+  <b> Memórias XV, 63 </b> </p> 
+  <p class=bibbia> No Sacramento Eucarístico, Jesus continua a nos amar 
+  "até o final", deixando-nos seu corpo e sangue. 
+  <b> Sacramentum Caritatis, 1 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng22')> 22 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng22> 
+  <p> Eu tive uma visão mental de Jesus Crucificado.  Eu poderia então 
+  dificilmente compreender a profundidade de Sua tristeza na cruz, e eu 
+  foi agitado para me consumir por ele. 
+  <b> Memórias XV, 2-3 </b> </p> 
+  <p class=bibbia> O sangue de Cristo, que se ofereceu a Deus através de 
+  o Espírito eterno, pode purificar o nosso eu interior de ações mortas 
+  para servir ao Deus vivo. 
+  <b> Hebreus 9:14 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng23')> 23 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng23> 
+  <p> Eu me apoiei mentalmente na sagrada humanidade de Jesus Cristo, 
+  pesado pela minha própria cruz e me perguntei se meu sofrimento poderia fazer com que os sofrimentos da paixão de Cristo 
+  isqueiro. 
+  <b> Memórias XV, 71 </b> </p> 
+  <p class=bibbia> Como um cordeiro inocente ele mereceu a vida por nós pelo seu sangue 
+  que ele livremente derramou.  Nele Deus nos reconciliou consigo mesmo 
+  e um ao outro. 
+  <b> Gaudium et Spes, 22 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng24')> 24 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng24> 
+  <p> Acho que foi então que o Senhor me fez entender 
+  que quanto mais pecados são cometidos, mais Ele sofreu 
+  em sua paixão.  Na Santa Missa ofereci-me ao Senhor 
+  a fim de evitar pecados. 
+  <b> Memórias XV, 72 </b> </p> 
+  <p class=bibbia> No Amado, em quem, através do Seu Sangue, ganhamos nosso 
+  liberdade, o perdão dos nossos pecados, há a riqueza 
+  da sua graça. 
+  <b> Efésios 1, 7 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng25')> 25 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng25> 
+  <p> Enquanto orava, senti-me um pouco pacificado em relação aos meus pecados. 
+  Depois do meu voto, outro medo tomou conta de mim, o 
+  teme que outras almas sejam perdidas.  Para tais almas, Cristo 
+  derramou Seu sangue. 
+  <b> Memórias XII, 47 </b> </p> 
+  <p class=bibbia> Não podemos nos contentar quando consideramos os milhões de 
+  nossos irmãos e irmãs que, como nós, foram redimidos pelo sangue de Cristo, mas que vivem na ignorância 
+  do amor de Deus. 
+  <b> Redemptoris Missio, 86 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng26')> 26 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng26> 
+  <p> Especialmente, durante esses anos, eu tive um desejo tão forte 
+  para evitar pecados que ... eu teria transformado meu sangue em 
+  ouro se eu pudesse, enfrentando assim a morte muitas vezes. 
+  <b> Memórias I, 30 </b> </p> 
+  <p class=bibbia> Do sacrifício da cruz e comunhão com o 
+  corpo e sangue de Cristo na Eucaristia, a Igreja 
+  atrai o poder espiritual necessário para levar a cabo sua 
+  sion. 
+  <b> Ecclesia de Eucharistia, 22 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng27')> 27 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng27> 
+  <p> Quando orei diante do Santíssimo Sacramento, fui 
+  ocupado com a agonia de Jesus no Jardim das Oliveiras.  Eu 
+  entendido que as Tertiaries deveriam iniciar uma reflexão sobre 
+  a paixão. 
+  <b> Memórias XV, 60 </b> </p> 
+  <p class=bibbia> A agonia no Getsêmani foi a introdução à agonia da cruz na sexta-feira santa. 
+  A hora santa, a hora da redenção do mundo. 
+  <b> Ecclesia de Eucaristia, 4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng28')> 28 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng28> 
+  <p> Eu não posso imaginar quanto prazer uma alma que ama 
+  o Senhor pode sentir ... a ponto de desistir de sua vida 
+  e derramou seu sangue pelo amor daquele que morreu 
+  para nós. 
+  <b> Letras II / 2, 1329 </b> </p> 
+  <p class=bibbia> O sangue de Cristo ... revela à humanidade que sua grandeza, 
+  e assim sua vocação consiste no sincero presente de si mesmo. 
+  <b> Evangelium Vitae, 25 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng29')> 29 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng29> 
+  <p> Lembre-se de seu cônjuge abandonado no Jardim das Oliveiras e mantenha-o em companhia, mas de bom grado, porque 
+  em agonia, em um oceano de dor, Ele não precisa nos ver 
+  entristecido por nada. 
+  <b> Letras III / 2, 1178 </b> </p> 
+  <p class=bibbia> Se você pode ter alguma participação nos sofrimentos de Cristo, seja 
+  feliz, porque você vai desfrutar de uma alegria muito maior 
+  quando a Sua glória é revelada. 
+  <b> 1 Pedro 4:13 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng30')> 30 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng30> 
+  <p> Todo dia eu me lembro de você em minha oração e peço ao Senhor 
+  para colocar você na ferida do Seu Sagrado Coração e dar 
+  você a luz e ajuda necessário para levar a cabo os deveres 
+  do seu estado. 
+  <b> Letras III / 1, 285 </b> </p> 
+  <p class=bibbia> A taça de bênção que nós abençoamos é uma comunhão com o 
+  sangue de Cristo, e o pão que nós quebramos é uma comunhão com o corpo de Cristo. 
+  <b> 1 Coríntios 10:16 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m07eng31')> 31 de julho </a> </h3> 
+  <hr> 
+  <div class=bordo id=m07eng31> 
+  <p> Em todos os nossos ministérios, enquanto nos entregamos a cada pessoa, devemos apenas ter o valor dessa alma em vista.  Como 
+  todos têm o mesmo valor que devem sempre dar-lhes 
+  eus indiferentemente, igual e zelosamente a todos. 
+  <b> Regra Integral, 267 </b> </p> 
+  <p class=bibbia> Mas agora em Cristo Jesus, você que costumava estar tão distante 
+  de nós foram trazidos muito perto, pelo sangue de 
+  Cristo.  Ele é a nossa paz. 
+  <b> Efésios 2:13 </b> </p> 
+  </div> 
+  </ons-modal> 
+  </div> 
+  <div class=item> 
+  <br> 
+  <a href=# onclick="showModal('agosto');"> 
+  <ons-icon icon="calendar"></ons-icon><br> 
+  agosto 
+  </a> 
+  <ons-modal id=august> 
+  <p align = center> <a href=# onclick="closeModal('agosto')"> <b> Agosto </b> 
+  <img src=img/close.png> 
+  </a> 
+  </p> 
+  <hr> 
+  <p> Meu Senhor e Meu Deus, seja o que for que eu seja para sua glória! </p> 
+  <hr> 
+  <h3> <a href=# onclick=toggle('m08eng1')> 1º de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng1> 
+  <p> Meus olhos se encheram de lágrimas quando eu compareci àqueles 
+  Missas tendo a Glória Divina como tema e para as quais 
+  Desde então, sempre tive uma grande atração.  A simples menção da "Glória Divina" seria suficiente para tocar meu coração 
+  profundamente. 
+  <b> Memórias I, 29 </b> </p> 
+  <p class=bibbia> Os céus declaram a glória de Deus, a abóbada celeste proclama 
+  seu trabalho prático;  Discursos do dia para o dia, da noite para a noite mãos sobre o conhecimento. 
+  <b> Salmo 19: 2-3 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng2')> 2 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng2> 
+  <p> Eu também me senti compelido a não pensar em nada 
+  coisas temporais: mas longe de tudo e de todos, 
+  preocupar-se apenas com a Glória de Deus e a salvação das almas, abandonando tudo a Ele. 
+  <b> Memórias II, 50 </b> </p> 
+  <p class=bibbia> Ouça, céus, enquanto eu falo;  terra, ouça as palavras que 
+  Eu estou falando.  Que meu ensino caia como a chuva, que minha 
+  palavras caem como orvalho. 
+  <b> Deuteronômio 32: 1 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng3')> 3 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng3> 
+  <p> Deus me permitiu sofrer uma humilhação através da qual ele 
+  seria glorificado.  Eu experimentei prazer e eu ofereci 
+  eu mesmo ao Senhor por qualquer tipo de humilhação, desde que 
+  contribui para a sua glória. 
+  <b> Memórias VI, 50 </b> </p> 
+  <p class=bibbia> Dê graças ao Senhor, chame o seu nome em voz alta, proclamar o seu 
+  ações para os povos!  Cante para ele, toque para ele. 
+  <b> Salmo 105: 1-2 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng4')> 4 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng4> 
+  <p> Pareceu-me que Ele queria ser glorificado no 
+  várias obras da minha vocação, através da minha humilhação. 
+  Depois de alguns dias tive que sofrer uma humilhação muito pesada. 
+  <b> Memórias VI, 51 </b> </p> 
+  <p class=bibbia> Ó Senhor, nosso Senhor, quão grande é o seu nome em todo o 
+  terra!  Acima dos céus sua majestade é cantada. 
+  <b> Salmo 8: 2 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng5')> 5 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng5> 
+  <p> O velho desejo de espalhar a glória de Deus e salvar 
+  almas foram ressuscitadas e eu me ofereci ao Senhor também 
+  para a salvação do mundo inteiro, se fosse possível. 
+  <b> Memórias VI, 56 </b> </p> 
+  <p class=bibbia> Eu te agradeço, ó Senhor, com todo o meu coração;  Eu recito suas maravilhas uma a uma, me alegro e exulto em seu nome. 
+  <b> Salmo 9: 2-3 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng6')> 6 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng6> 
+  <p> Foi-me dito que me abandonasse no Senhor.  Esta decisão 
+  me deixou muito consolado como parecia para mim que eu estava 
+  pronto para sofrer qualquer sofrimento, até mesmo a morte, desde que 
+  o Senhor seja glorificado. 
+  <b> Memórias VII, 30 </b> </p> 
+  <p class=bibbia> Glória para sempre ao Senhor!  Que o Senhor encontre alegria no que 
+  Ele cria, a cuja vista a terra treme, em cujo toque as montanhas fumegam. 
+  <b> Salmo 104: 31-32 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng7')> 7 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng7> 
+  <p> Eu me encontrei não só em angústia por medo de não ser 
+  salvo, mas também muito distraído.  Por muito tempo eu perdi 
+  o desejo de ir a qualquer lugar para espalhar a Glória de Deus 
+  como no passado, fui instado a fazer. 
+  <b> Memórias VII, 55 </b> </p> 
+  <p class=bibbia> Eu quero cantar para o Senhor toda a minha vida, para tocar para o meu Deus 
+  contanto que eu viva.  Que estas minhas reflexões lhe dêem prazer. 
+  <b> Salmo 104: 33-34 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng8')> 8 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng8> 
+  <p> Meu passado deseja trabalhar pela Glória de Deus e desejar nada mais além Dele, foi renovado. 
+  Foi um esforço considerável para mim não ansiar pelo paraíso, tendo 
+  teve um pressentimento de que um longo tempo passaria antes que eu 
+  alcançaria isso. 
+  <b> Memórias IX, 25 </b> </p> 
+  <p class=bibbia> Toda obra Sua é cheia de glória e majestade e Sua 
+  a justiça nunca pode mudar.  Ele nos permite comemorar suas maravilhas.  O senhor é bom. 
+  <b> Salmo 111: 3-4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng9')> 9 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng9> 
+  <p> Parece-me que não posso amá-lo mais do que realmente faço nesta vida.  Eu estou consciente, às vezes, de ter 
+  muito no coração tudo o que pertence a Deus e sua glória 
+  que eu considero e valorizo ​​de longe, mais do que tudo que eu 
+  próprio, vida incluída. 
+  <b> Memórias XI, 41 </b> </p> 
+  <p class=bibbia> Quão ricas são as profundezas de Deus, quão profunda Sua sabedoria 
+  e conhecimento, e quão impossível penetrar 
+  motivos ou entender seus métodos. 
+  <b> Romanos 11:33 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng10')> 10 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng10> 
+  <p> Mais uma vez, eu fiz uma resolução para ser corajosa e ir a qualquer lugar, desde que eu pudesse fazer algo para promover o 
+  Glória de Deus, embora eu soubesse que, como sempre, falharia. 
+  <b> Memórias XIII, 76 </b> </p> 
+  <p class=bibbia> O Senhor é grande e digno de louvor; Sua grandeza não pode ser medida; 
+  uma idade louvará seus feitos a outra. 
+  <b> Salmo 145: 3-4 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng11')> 11 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng11> 
+  <p> Eu me senti pronto para me desintegrar em muitos átomos se isso fosse 
+  possível e multiplicado muitas vezes.  Eu acolho o sofrimento pela única razão que Deus pode ser 
+  servido e glorificado. 
+  <b> Memórias XV, 29 </b> </p> 
+  <p class=bibbia> Oh, o esplendor de sua glória, sua fama!  eu digo a mim mesmo 
+  a história de seus atos maravilhosos e seu poder temeroso. 
+ <b>Psalm 145:5-6 </b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm08eng12')>12 August</a></h3> 
+  <hr> 
+ <div class=bordo id=m08eng12> 
+ <p> Overcome with grief, I began to pray. Stripping myself of 
+ all human affection I tried to seek only God's will and His 
+ Glory. I entrusted myself to Mary. 
+ <b> Memoirs XV, 31</b></p> 
+ <p class=bibbia> How great and wonderful are all your works, Lord God 
+ Almighty; just and true are all your ways, King of Nations. 
+ <b>Revelation 15:3</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm08eng13')>13 August</a></h3> 
+  <hr> 
+ <div class=bordo id=m08eng13> 
+ <p> It involves more to fulfil them by reproducing the Holy 
+ Life of Our Lord Jesus, by leading even ourselves a submitted, humble and hidden life, totally 
+ engaged in looking for the Divine Glory and the Salvation of Souls. 
+ <b>UR, Preface</b></p> 
+ <p class=bibbia> But God raised Jesus high and gave Him the name which 
+ is above all other names; everyone should bend the 
+  joelho. 
+ <b>Philippians 2:9</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm08eng14')>14 August</a></h3> 
+  <hr> 
+ <div class=bordo id=m08eng14> 
+ <p>Among the virtues of which our great Model gave us a 
+ special example on the cross, the first of these was His 
+ most ardent love for His Divine Father for whose Glory He 
+ consumed the Great Sacrifice. 
+ <b>UR, Preface</b> </p> 
+ <p class=bibbia> The heavenly host praised God by singing: Glory to God 
+ in the highest heaven, and peace to men who enjoy His favour. 
+ <b>Luke 2:14</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm08eng15')>15 August</a></h3> 
+  <hr> 
+ <div class=bordo id=m08eng15> 
+ <p>My dear Daughter, God always wants that we find ourselves in the midst of contradictions. 
+ Three things I desire from you and these will end up your merit together with 
+ the Glory of God and the peace and serenity of all. 
+ <b>Letters III/1,1018</b> </p> 
+ <p class=bibbia> Let them all praise the name of the Lord. His majesty 
+ transcends earth and heaven, raising the fortunes of His 
+  pessoas. 
+ <b>Psalm 148:13-14 </b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm08eng16')>16 August</a></h3> 
+  <hr> 
+ <div class=bordo id=m08eng16> 
+ <p> We know that our Institute, having as its aim the Glory of 
+ God, when you have means and Sisters so as to spread 
+ the works of the branches contemplated, we would like 
+ to start without any agitation. 
+ <b>Letters III/1, 1061</b></p> 
+ <p class=bibbia> My heart exults in the Lord, my horn is exalted in my 
+  Deus. There is no one as holy as the Lord, nor Rock like 
+ our God. 
+ <b>1 Samuel 2:1-2</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm08eng17')>17 August</a></h3> 
+  <hr> 
+ <div class=bordo id=m08eng17> 
+ <p> Fearing to have caused us harm, assure the person that, 
+ regarding the Glory of God which I desire above everything and for which every sacrifice is worth making, it has 
+ not caused us the least harm. 
+ <b>Letters III/1, 1063</b></p> 
+ <p class=bibbia> The people that walked in darkness has seen a great 
+ light; on those who live in a land of deep shadow a light 
+ has shone! 
+ <b>Isaiah 9:1</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm08eng18')>18 August</a></h3> 
+  <hr> 
+ <div class=bordo id=m08eng18> 
+ <p> Trust in God. Be happy with everything, be assured that 
+ with divine help you will be useful in what the Lord will 
+ illumine me regarding you so that you may be available 
+ for His service and His Glory. 
+ <b>Letters III/1, 1079</b></p> 
+ <p class=bibbia> The glory of Lebanon is bestowed on the desert, the 
+ splendour of Carmel and Sharon; they shall see the glory 
+ of the Lord, the splendour of our God. 
+ <b>Isaiah 35:2</b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm08eng19')>19 August</a></h3> 
+  <hr> 
+ <div class=bordo id=m08eng19> 
+ <p> Do not worry if you fear suffering, since it is repugnant to 
+ our nature; let us not detach our will from that of God 
+ and be strong in any distress when Divine Glory is involved. 
+ <b>Letters III/1, 1159</b></p> 
+ <p class=bibbia> The glory of the Lord shall be revealed and all humanity 
+ shall see it; for the mouth of the Lord has spoken. 
+ <b>Isaiah 40:5 </b> </p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm08eng20')>20 August</a></h3> 
+  <hr> 
+ <div class=bordo id=m08eng20> 
+ <p> May the Lord do what is best for His Glory. I received 
+ your letter and I assure you I share your sorrow regarding 
+ Margherita, but we must be happy with God's will. 
+ <b>Letters III/1, 1188</b></p> 
+ <p class=bibbia> Arise, shine out Jerusalem, for your light has come, the 
+ Glory of the Lord is rising on you. Above you the Lord's 
+ glory now appears. 
+ <b>Isaiah 60:1</b></p> 
+  </div> 
+ <h3><a href=# onclick=toggle( 'm08eng21')>21 August</a></h3> 
+  <hr> 
+ <div class=bordo id=m08eng21> 
+ <p>In this holy work we recommend the Sisters that, renewing and purifying their intention, they may do to the 
+ School of Christian Doctrine as people who do not care 
+ about anyone but God and his Glory. 
+ <b>UR, Rule for Doctrine</b> </p> 
+ <p class=bibbia> Though night still covers the earth and the darkness the 
+ people, above you the Lord now rises. At this sight you 
+ will grow radiant. 
+ <b>Isaiah 60:2</b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng22')> 22 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng22> 
+  <p> Eu tive a impressão de que o Senhor estava me pedindo para sair 
+  tudo o que dizia respeito às casas do Instituto para Ele, especialmente as minhas preocupações pessoais, de modo a não pensar em nada 
+  mas sua glória. 
+  <b> Memórias XV, 7 </b> </p> 
+  <p class=bibbia> Bendito seja o seu glorioso e santo nome.  Você pode ser 
+  abençoado no templo de sua glória sagrada, exaltado e 
+  glorificado acima de tudo para sempre. 
+  <b> Daniel 3: 52-53 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng23')> 23 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng23> 
+  <p> Parece que não devo mais prestar tanta atenção a 
+  tentações, ansiedades, dificuldades, dificuldades.  Todos estes 
+  coisas que eu tenho que esquecer ou preferir ignorar completamente e 
+  só se preocupa com a Glória de Deus e cuida de 
+  Só ele. 
+  <b> Memórias XV, 8 </b> </p> 
+  <p class=bibbia> Que você seja abençoado, Senhor, o Deus de Israel, nosso ancestral, 
+  para sempre e para sempre!  Sua é a grandeza, o poder 
+  e esplendor. 
+  <b> 1 Crônicas 29:11 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng24')> 24 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng24> 
+  <p> Nós os recomendamos a ter um espírito de auto-sacrifício, pois 
+  que eles podem estar prontos para se privar de sua 
+  liberdade e desejos, mesmo os santos, de modo a envolver 
+  para a Glória Divina e o bem das almas. 
+  <b> UR, professores do país </b> </p> 
+  <p class=bibbia> Senhor, só tu és beleza, majestade e esplendor.  Dentro 
+  sua mão repousa em força e poder.  Nós te damos glória e 
+  elogio. 
+  <b> 1 Crônicas 29:11 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng25')> 25 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng25> 
+  <p> Para ajudar as Senhoras a se manterem mais próximas do maior serviço de Deus, colaborando com elas para difundir o 
+  Glória Divina, eles podem ser recebidos duas vezes por ano para o 
+  Exercícios Espirituais. 
+  <b> UR, método para exercícios espirituais </b> </p> 
+  <p class=bibbia> O Verbo se fez carne, Ele viveu entre nós e nós 
+  viu a sua glória, a glória que é sua como o único filho do 
+  Pai. 
+  <b> João 1:14 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng26')> 26 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng26> 
+  <p> Esta Filial do Instituto foi adotada para nenhum outro objetivo além do de fazer o bem a essas almas e suas 
+  famílias e acima de tudo pela Glória Divina.  Nunca deve 
+  ser feito para obter benefícios para o Instituto que é sustentado somente por Deus. 
+  <b> Método para exercícios espirituais </b> </p> 
+  <p class=bibbia> Todo joelho deve dobrar no nome de Jesus e cada 
+  língua deve proclamar Jesus Cristo como Senhor, para a Glória 
+  de Deus, o pai. 
+  <b> Filipenses 2: 10-11 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng27')> 27 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng27> 
+  <p> Permita que as Irmãs façam saber a estas senhoras o seu dever de 
+  pague corretamente seus servos.  Quão grande será a glória 
+  de Deus e da edificação eles vão dar pela sua modéstia 
+  de vestimenta e respeito nas Igrejas. 
+  <b> UR, método para exercícios espirituais </b> </p> 
+  <p class=bibbia> Estamos esperando na esperança pela aparição da Glória 
+  do nosso grande Deus e Salvador Jesus Cristo que sacrificou 
+  ele mesmo para nós. 
+  <b> Tito 2:13 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng28')> 28 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng28> 
+  <p> Recebemos estas senhoras apenas pelo motivo da Glória 
+  e serviço de Deus;  não é possível nem conveniente 
+  que a casa suportar o ônus de sua manutenção 
+ e tudo o que sobra sempre pertence aos pobres. 
+  <b> UR, método para exercícios espirituais </b> </p> 
+  <p class=bibbia> O Filho é a luz radiante da glória de Deus e perfeita 
+  cópia de Sua natureza, sustentando o universo por Seu poderoso comando. 
+  <b> Hebreus 1: 3 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng29')> 29 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng29> 
+  <p> Lembre-se, mesmo nesta tarefa, se eles esperam uma recompensa 
+  o Senhor, é melhor eles praticarem este ramo da caridade 
+  mas não procurando nada além da honra e do prazer 
+  de Deus e Sua Glória. 
+  <b> UR, método para exercícios espirituais </b> </p> 
+  <p class=bibbia> Vitória e glória e poder para nosso Deus;  Ele julga de maneira justa. 
+  Louvado seja nosso Deus, vocês servos da Sua, reverenciá-lo. 
+  <b> Apocalipse 19: 1,6 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng30')> 30 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng30> 
+  <p> Mantenha os pobres longe de ofender a Deus e dê 
+  lhes a oportunidade de ganhar seu pão honrosamente 
+  ... eles devem refletir que eles sempre têm que colocar o Reino de Deus diante dos interesses humanos e se entregar a essas meninas ... 
+  <b> UR, regra para as escolas </b> </p> 
+  <p class=bibbia> A cidade santa, a nova Jerusalém, desceu de Deus 
+  fora do Céu.  Ela tinha toda a glória radiante de Deus e brilhava como jóias preciosas. 
+  <b> Apocalipse 21: 10-11 </b> </p> 
+  </div> 
+  <h3> <a href=# onclick=toggle('m08eng31')> 31 de agosto </a> </h3> 
+  <hr> 
+  <div class=bordo id=m08eng31> 
+  <p> Para ajudar bem essas meninas, elas precisam sacrificar um 
+  pouco mais de sua paz e tranquilidade.  Eles podem cooperar na prevenção de pecados inumeráveis, tentando fazer 
+  Deus conheceu e amou e suavizar o caminho para o céu para 
+  muitas almas. 
+  <b> UR, professores do país </b> </p> 
+  <p class=bibbia> A cidade não precisava do sol ou da lua para a luz 
+  foi iluminado pela glória radiante de Deus.  Nações viverão por 
+  é luz. 
+  <b> Apocalipse 21: 23-24 </b> </p> 
+  </div> 
+  </ons-modal> 
+  </div> 
