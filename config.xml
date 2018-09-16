@@ -8,12 +8,15 @@
   <name>Calendário Canossiano</name>
   <!-- descrizione -->
   <description>
-      Calendário Canossiano en Português
+      Calendário Canossiano
   </description>
   <!-- autore -->
   <author href="https://build.phonegap.com">
       Alessandro Visigalli
   </author>
+  <!-- abilita links esterni -->
+  <allow-navigation href="*://*.canossamilano.org/*" />
+  <allow-navigation href="*://*.canossian.org/*" />
   <!-- piattaforma di riferimento ed icona della app -->
     <platform name="android">
               <icon src="img/iconpt.png" density="ldpi" />
